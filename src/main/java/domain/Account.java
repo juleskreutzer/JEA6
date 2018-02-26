@@ -19,19 +19,27 @@ import java.util.List;
  */
 
 @Entity
-@Table(name = "User", uniqueConstraints = {@UniqueConstraint(columnNames = {"email"})})
-public class User implements Serializable {
+@NamedQueries({
+        @NamedQuery(name = "Account.findAll", query = "SELECT u FROM Account u"),
+        @NamedQuery(name = "Account.findByID", query = "SELECT u FROM Account u WHERE u.id = :id"),
+        @NamedQuery(name = "Account.findByEmail", query = "SELECT u FROM Account u WHERE u.email = :email"),
+        @NamedQuery(name = "Account.getAccountByPartOfEmail", query = "SELECT u FROM Account u WHERE u.email LIKE :partOfEmail"),
+        @NamedQuery(name = "Account.getAccountByFullName", query = "SELECT u FROM Account u WHERE u.fullName = :fullName"),
+        @NamedQuery(name = "Account.getAccountByPartOfFullName", query = "SELECT u FROM Account u WHERE u.fullName LIKE :partOfFullName")
+})
+@Table(name = "Account")
+public class Account implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id;
+    private long id;
 
     private String email;
 
     private String fullName;
 
     @JsonbTransient
-    private transient String password;
+    private  String password;
 
     private String location;
 
@@ -40,20 +48,31 @@ public class User implements Serializable {
     private String bio;
 
     @OneToMany
-    private List<User> followers;
+    @JoinTable(name = "user_followers"
+            , joinColumns = @JoinColumn(name = "account_id", referencedColumnName = "id", nullable = false)
+            , inverseJoinColumns = @JoinColumn(name = "follower_id", referencedColumnName = "id", nullable = false))
+    private List<Account> followers;
     @OneToMany
-    private List<User> following;
+    @JoinTable(name = "user_following"
+            , joinColumns = @JoinColumn(name = "account_id", referencedColumnName = "id", nullable = false)
+            , inverseJoinColumns = @JoinColumn(name = "following_id", referencedColumnName = "id", nullable = false))
+    private List<Account> following;
+
     private String profileImage;
 
     private ROLE role = ROLE.USER;
 
-    public User() { }
+    public Account() { }
 
-    public String getId() {
+    public Account(String email, String password) {
+        this.email = email;
+        this.password = password;
+    }
+    public long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -105,19 +124,19 @@ public class User implements Serializable {
         this.bio = bio;
     }
 
-    public List<User> getFollowers() {
+    public List<Account> getFollowers() {
         return followers;
     }
 
-    public void setFollowers(List<User> followers) {
+    public void setFollowers(List<Account> followers) {
         this.followers = followers;
     }
 
-    public List<User> getFollowing() {
+    public List<Account> getFollowing() {
         return following;
     }
 
-    public void setFollowing(List<User> following) {
+    public void setFollowing(List<Account> following) {
         this.following = following;
     }
 

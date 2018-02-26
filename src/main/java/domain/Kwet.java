@@ -27,24 +27,26 @@ public class Kwet implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id;
+    private long id;
     private String text;
     private Date creationDate;
 
     @ManyToOne(optional = false)
-    private User owner;
+    private Account owner;
     @ElementCollection
     private List<String> hashtags;
     @OneToMany
-    private List<User> mentions;
+    private List<Account> mentions;
     @OneToMany
-    private List<User> likes;
+    private List<Account> likes;
 
-    public String getId() {
+    public Kwet() { }
+
+    public long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -64,11 +66,11 @@ public class Kwet implements Serializable {
         this.creationDate = creationDate;
     }
 
-    public User getOwner() {
+    public Account getOwner() {
         return owner;
     }
 
-    public void setOwner(User owner) {
+    public void setOwner(Account owner) {
         this.owner = owner;
     }
 
@@ -80,21 +82,19 @@ public class Kwet implements Serializable {
         this.hashtags = hashtags;
     }
 
-    public List<User> getMentions() {
+    public List<Account> getMentions() {
         return mentions;
     }
 
-    public void setMentions(List<User> mentions) {
+    public void setMentions(List<Account> mentions) {
         this.mentions = mentions;
     }
 
-    public List<User> getLikes() {
+    public List<Account> getLikes() {
         return likes;
     }
 
-    public void setLikes(List<User> likes) {
+    public void setLikes(List<Account> likes) {
         this.likes = likes;
     }
-
-    public Kwet() { }
 }
