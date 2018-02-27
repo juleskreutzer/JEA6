@@ -53,7 +53,7 @@ public interface IKwetDoa {
      * @param id ID of the kwet
      * @return returns the specific kwet
      */
-    Kwet getById(String id);
+    Kwet getById(long id);
 
 
 }

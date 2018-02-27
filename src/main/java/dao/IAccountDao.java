@@ -61,7 +61,7 @@ public interface IAccountDao {
      * @param id
      * @return returns the Account, if found
      */
-    Account findAccountByID(String id);
+    Account findAccountByID(long id);
 
     /**
      * Get a list of all Accounts that the current Account is following

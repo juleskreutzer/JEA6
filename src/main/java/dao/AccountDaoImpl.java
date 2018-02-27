@@ -68,7 +68,7 @@ public class AccountDaoImpl implements IAccountDao {
         }
     }
 
-    public Account findAccountByID(String id) {
+    public Account findAccountByID(long id) {
         Query q = em.createNamedQuery("Account.findByID");
         q.setParameter("id", id);
 
@@ -80,19 +80,23 @@ public class AccountDaoImpl implements IAccountDao {
     }
 
     public List<Account> getAllFollowing(Account u) {
-        throw new NotImplementedException();
+        Account account = this.findAccountByEmail(u.getEmail());
+        return account.getFollowing();
     }
 
     public int getFollowingCount(Account u) {
-        throw new NotImplementedException();
+        Account account = this.findAccountByEmail(u.getEmail());
+        return account.getFollowing().size();
     }
 
     public List<Account> getAllFollowers(Account u) {
-        throw new NotImplementedException();
+        Account account = this.findAccountByEmail(u.getEmail());
+        return account.getFollowers();
     }
 
-    public int getFollowersCount(Account u) {
-        throw new NotImplementedException();
+    public int getFollowersCount(Account u){
+        Account account = this.findAccountByEmail(u.getEmail());
+        return account.getFollowers().size();
     }
 
     public List<Account> findAccountByPartOfEmail(String partOfEmail) {

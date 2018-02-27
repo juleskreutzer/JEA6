@@ -1,6 +1,6 @@
 package domain;
 
-import domain.Enums.ROLE;
+import util.ROLE;
 
 import javax.json.bind.annotation.JsonbTransient;
 import javax.persistence.*;
@@ -48,12 +48,12 @@ public class Account implements Serializable {
     private String bio;
 
     @OneToMany
-    @JoinTable(name = "user_followers"
+    @JoinTable(name = "account_followers"
             , joinColumns = @JoinColumn(name = "account_id", referencedColumnName = "id", nullable = false)
             , inverseJoinColumns = @JoinColumn(name = "follower_id", referencedColumnName = "id", nullable = false))
     private List<Account> followers;
     @OneToMany
-    @JoinTable(name = "user_following"
+    @JoinTable(name = "account_following"
             , joinColumns = @JoinColumn(name = "account_id", referencedColumnName = "id", nullable = false)
             , inverseJoinColumns = @JoinColumn(name = "following_id", referencedColumnName = "id", nullable = false))
     private List<Account> following;
@@ -68,6 +68,16 @@ public class Account implements Serializable {
         this.email = email;
         this.password = password;
     }
+
+    public Account(long id, String bio, String fullName, String location, String profileImage, String web) {
+        this.id = id;
+        this.bio = bio;
+        this.fullName = fullName;
+        this.location = location;
+        this.profileImage = profileImage;
+        this.web = web;
+    }
+
     public long getId() {
         return id;
     }
@@ -128,12 +138,22 @@ public class Account implements Serializable {
         return followers;
     }
 
+    public void addFollower(Account follower) {
+        if(follower != null) { this.followers.add(follower); }
+    }
+
     public void setFollowers(List<Account> followers) {
         this.followers = followers;
     }
 
     public List<Account> getFollowing() {
         return following;
+    }
+
+    public void addFollowing(Account follower) {
+        if(follower != null) {
+            this.following.add(follower);
+        }
     }
 
     public void setFollowing(List<Account> following) {

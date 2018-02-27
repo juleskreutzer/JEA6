@@ -59,7 +59,7 @@ public class KwetDaoImpl implements IKwetDoa{
         }
     }
 
-    public Kwet getById(String id) {
+    public Kwet getById(long id) {
         Query q = em.createNamedQuery("Kwet.GetById");
         q.setParameter("id", id);
         try {
