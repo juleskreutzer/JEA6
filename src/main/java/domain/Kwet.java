@@ -20,7 +20,9 @@ import java.util.List;
 @NamedQueries({
         @NamedQuery(name = "Kwet.FindAll", query = "SELECT k FROM Kwet k"),
         @NamedQuery(name = "Kwet.GetById", query = "SELECT k FROM Kwet k WHERE k.id = :id"),
-        @NamedQuery(name = "Kwet.GetByText", query = "SELECT k FROM Kwet k WHERE k.text = :text")
+        @NamedQuery(name = "Kwet.GetByText", query = "SELECT k FROM Kwet k WHERE k.text = :text"),
+        @NamedQuery(name = "Kwet.GetByOwner", query = "SELECT k FROM Kwet k WHERE k.owner.id = :id"),
+        @NamedQuery(name = "Kwet.GetByOwnerAndText", query = "SELECT k FROM Kwet k WHERE k.owner.id = :id AND k.text = :text")
 })
 @Table(name = "Kwet")
 public class Kwet implements Serializable {

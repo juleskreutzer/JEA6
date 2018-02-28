@@ -2,8 +2,8 @@ package dao;
 
 import domain.Kwet;
 
-import javax.ejb.Startup;
-import javax.ejb.Stateless;
+import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.inject.Model;
 import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
@@ -21,8 +21,8 @@ import java.util.List;
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-@Stateless
-@Startup
+@ApplicationScoped
+@Model
 public class KwetDaoImpl implements IKwetDoa{
 
     @PersistenceContext(unitName = "KwetterGlassfish")
@@ -30,7 +30,6 @@ public class KwetDaoImpl implements IKwetDoa{
 
     public void create(Kwet k) {
         em.persist(k);
-
     }
 
     public void edit(Kwet k) {
@@ -59,11 +58,22 @@ public class KwetDaoImpl implements IKwetDoa{
         }
     }
 
-    public Kwet getById(long id) {
+    public Kwet findById(long id) {
         Query q = em.createNamedQuery("Kwet.GetById");
         q.setParameter("id", id);
         try {
             return (Kwet) q.getSingleResult();
+        } catch (NoResultException nre) {
+            return null;
+        }
+    }
+
+    public List<Kwet> findByOwnerId(long id) {
+        Query q = em.createNamedQuery("Kwet.GetByOwner");
+        q.setParameter("id", id);
+
+        try {
+            return (List<Kwet>) q.getResultList();
         } catch (NoResultException nre) {
             return null;
         }

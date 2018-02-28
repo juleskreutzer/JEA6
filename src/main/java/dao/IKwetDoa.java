@@ -53,7 +53,9 @@ public interface IKwetDoa {
      * @param id ID of the kwet
      * @return returns the specific kwet
      */
-    Kwet getById(long id);
+    Kwet findById(long id);
+
+    List<Kwet> findByOwnerId(long id);
 
 
 }

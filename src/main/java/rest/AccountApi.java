@@ -28,6 +28,7 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 
 @Stateless
 @Path("/accounts")
+
 public class AccountApi {
 
     @Inject

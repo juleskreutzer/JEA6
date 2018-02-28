@@ -22,4 +22,10 @@ public class ResponseMessage {
      */
 
     public final static String UNABLE_TO_CREATE_ACCOUNT = "Unable to create new account";
+
+    /**
+     * Error response messages for Kwet API
+     */
+
+    public final static String UNABLE_TO_CREATE_KWET = "Unable to create new Kwet";
 }
