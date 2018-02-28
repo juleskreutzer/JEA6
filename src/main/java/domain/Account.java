@@ -72,8 +72,7 @@ public class Account implements Serializable {
         this.password = password;
     }
 
-    public Account(long id, String bio, String fullName, String location, String profileImage, String web) {
-        this.id = id;
+    public void updateAccount(String bio, String fullName, String location, String profileImage, String web) {
         this.bio = bio;
         this.fullName = fullName;
         this.location = location;

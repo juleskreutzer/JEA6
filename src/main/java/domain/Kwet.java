@@ -44,6 +44,11 @@ public class Kwet implements Serializable {
 
     public Kwet() { }
 
+    public Kwet(String text, Account owner) {
+        this.text = text;
+        this.owner = owner;
+    }
+
     public long getId() {
         return id;
     }

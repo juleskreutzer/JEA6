@@ -121,8 +121,14 @@ public class AccountApi {
     @Consumes(APPLICATION_JSON)
     @Path("/update/{id}")
     public void updateAccount(@PathParam("id") long id, @FormParam("bio") String bio, @FormParam("fulllName") String fullName, @FormParam("location") String location, @FormParam("profileImage") String profileImage, @FormParam("web") String web) {
-        Account account = new Account(id, bio, fullName, location, profileImage, web);
-        service.updateAccount(account);
+        //TODO: Check provided params
+        //TODO: Use service to update account?
+        Account account = service.findById(id);
+
+        if(account != null) {
+            account.updateAccount(bio, fullName, location, profileImage, web);
+        }
+        //service.updateAccount(account);
     }
 
     @GET
