@@ -2,6 +2,7 @@ package service;
 
 import dao.KwetDaoImpl;
 import domain.Kwet;
+import exceptions.KwetNotFoundException;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
@@ -46,7 +47,7 @@ public class KwetService {
         kwetDao.create(kwet);
     }
 
-    public void update(Kwet kwet) {
+    public void update(Kwet kwet) throws KwetNotFoundException {
         kwetDao.edit(kwet);
     }
 }

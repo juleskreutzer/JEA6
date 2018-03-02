@@ -1,6 +1,7 @@
 package rest;
 
 import domain.Kwet;
+import exceptions.KwetNotFoundException;
 import service.KwetService;
 import util.ResponseMessage;
 
@@ -156,6 +157,12 @@ public class KwetApi {
             throw new WebApplicationException(ResponseMessage.PARAM_MISSING, Response.Status.NOT_ACCEPTABLE);
         }
 
-        service.update(kwet);
+        try {
+            service.update(kwet);
+        } catch (KwetNotFoundException knfe) {
+            throw new WebApplicationException(knfe.getMessage(), Response.Status.INTERNAL_SERVER_ERROR);
+        } catch (Exception e) {
+            throw new WebApplicationException(e.getMessage(), Response.Status.INTERNAL_SERVER_ERROR);
+        }
     }
 }

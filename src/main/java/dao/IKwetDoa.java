@@ -1,6 +1,7 @@
 package dao;
 
 import domain.Kwet;
+import exceptions.KwetNotFoundException;
 
 import java.util.List;
 
@@ -27,7 +28,7 @@ public interface IKwetDoa {
      * Edit an existing kwet
      * @param k the kwet to be edited
      */
-    void edit(Kwet k);
+    void edit(Kwet k) throws KwetNotFoundException;
 
     /**
      * Remove an existing kwet

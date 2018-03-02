@@ -22,10 +22,13 @@ public class ResponseMessage {
      */
 
     public final static String UNABLE_TO_CREATE_ACCOUNT = "Unable to create new account";
+    public final static String EMAIL_ALLREADY_REGISTERED = "The provided email address is allready registered for an account";
+    public final static String ACCOUNT_NOT_FOUND_WITH_PROVIDED_EMAIL = "No account has been found with the provided email address";
 
     /**
      * Error response messages for Kwet API
      */
 
     public final static String UNABLE_TO_CREATE_KWET = "Unable to create new Kwet";
+    public final static String KWET_NOT_FOUND_WITH_PROVIDED_ID = "Couldn't find kwet with provided id";
 }

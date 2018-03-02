@@ -26,6 +26,9 @@ public class KwetTest {
     private static Date defaultCreationDate = new Date();
     private static ArrayList<String> hashTags;
 
+    private static String hashtag1 = "test 1";
+    private static String hashtag2 = "test 2";
+
     private static Account mention1;
     private static Account mention2;
 
@@ -36,11 +39,14 @@ public class KwetTest {
     public static void setUp() {
         owner = new Account("jules@nujules.nl", "kreutzer");
         kwet = new Kwet(defaultText, owner);
+        kwet.setId(1);
         kwet.setCreationDate(defaultCreationDate);
 
         hashTags = new ArrayList<String>();
-        hashTags.add("test 1");
-        hashTags.add("test 2");
+        hashTags.add(hashtag1);
+        hashTags.add(hashtag2);
+
+        kwet.setHashtags(hashTags);
 
         mention1 = new Account("test", "test");
         mention2 = new Account("mail", "password");
@@ -118,8 +124,8 @@ public class KwetTest {
     @Test
     public void getHashtags() {
         ArrayList<String> tags = new ArrayList<String>();
-        tags.add("test 1");
-        tags.add("test 2");
+        tags.add(hashtag1);
+        tags.add(hashtag2);
 
         Assert.assertEquals(kwet.getHashtags(), tags);
     }
@@ -159,9 +165,11 @@ public class KwetTest {
         Account mention3 = new Account("asd", "asd");
 
         mentions.add(mention3);
-        kwet.setMentions(mentions);
 
-        Assert.assertEquals(kwet.getMentions(), mentions);
+        Kwet k = new Kwet(defaultText, owner);
+        k.setMentions(mentions);
+
+        Assert.assertEquals(k.getMentions(), mentions);
     }
 
     @Test
@@ -183,8 +191,27 @@ public class KwetTest {
 
         likes.add(like3);
 
-        kwet.setLikes(likes);
+        Kwet k = new Kwet(defaultText, owner);
+        k.setLikes(likes);
 
-        Assert.assertEquals(kwet.getLikes(), likes);
+        Assert.assertEquals(k.getLikes(), likes);
+    }
+
+    @Test
+    public void getId() {
+        Assert.assertEquals(kwet.getId(), 1);
+    }
+
+    @Test
+    public void setId() {
+        long newId = 2;
+
+        Kwet k = kwet;
+
+        Assert.assertEquals(k.getId(), 1);
+
+        k.setId(newId);
+
+        Assert.assertEquals(k.getId(), newId);
     }
 }

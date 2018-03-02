@@ -2,6 +2,7 @@ package rest;
 
 import domain.Account;
 import domain.AccountRegistration;
+import exceptions.EmailAllreadyRegisteredException;
 import service.AccountService;
 import util.ResponseMessage;
 
@@ -106,7 +107,13 @@ public class AccountApi {
 
         Account account = new Account(accountRegistration.getEmail(), accountRegistration.getPassword());
 
-        service.createAccount(account);
+        try {
+            service.createAccount(account);
+        } catch(EmailAllreadyRegisteredException eae) {
+            throw new WebApplicationException(eae.getMessage(), Response.Status.INTERNAL_SERVER_ERROR);
+        } catch(Exception e) {
+            throw new WebApplicationException(e.getMessage(), Response.Status.INTERNAL_SERVER_ERROR);
+        }
 
         Account addedAccount = service.findByEmail(accountRegistration.getEmail());
         if(addedAccount != null) {

@@ -2,10 +2,12 @@ package service;
 
 import dao.AccountDaoImpl;
 import domain.Account;
+import exceptions.AccountNotFoundException;
+import exceptions.EmailAllreadyRegisteredException;
 
 import javax.ejb.Stateless;
+import javax.enterprise.context.Dependent;
 import javax.inject.Inject;
-import javax.inject.Named;
 import java.util.Collection;
 
 /**
@@ -20,7 +22,7 @@ import java.util.Collection;
  */
 
 @Stateless
-@Named
+@Dependent
 public class AccountService {
 
     @Inject
@@ -42,7 +44,7 @@ public class AccountService {
         return accountDao.findAccountByFullName(fullName);
     }
 
-    public void createAccount(Account account) {
+    public boolean createAccount(Account account) throws EmailAllreadyRegisteredException {
         boolean emailAllreadyRegistered = false;
 
         for(Account a : accountDao.getAllAccounts()) {
@@ -51,10 +53,15 @@ public class AccountService {
             }
         }
 
-        if(!emailAllreadyRegistered) accountDao.createAccount(account);
+        if(!emailAllreadyRegistered) {
+            accountDao.createAccount(account);
+            return true;
+        }
+
+        return false;
     }
 
-    public void updateAccount(Account account) {
+    public void updateAccount(Account account) throws AccountNotFoundException {
         boolean userDoesExist = false;
 
         for(Account a : accountDao.getAllAccounts()) {

@@ -1,7 +1,10 @@
 package dao;
 
 import domain.Account;
+import exceptions.AccountNotFoundException;
+import exceptions.EmailAllreadyRegisteredException;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+import util.ResponseMessage;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Model;
@@ -30,12 +33,20 @@ public class AccountDaoImpl implements IAccountDao {
     @PersistenceContext(unitName = "KwetterGlassfish")
     private EntityManager em;
 
-    public void createAccount(Account u) {
-        em.persist(u);
+    public void createAccount(Account u) throws EmailAllreadyRegisteredException {
+        if(this.findAccountByEmail(u.getEmail()) == null) {
+            em.persist(u);
+        } else {
+            throw new EmailAllreadyRegisteredException(ResponseMessage.EMAIL_ALLREADY_REGISTERED);
+        }
     }
 
-    public void editAccount(Account u) {
-        em.merge(u);
+    public void editAccount(Account u) throws AccountNotFoundException {
+        if(this.findAccountByEmail(u.getEmail()) != null) {
+            em.merge(u);
+        } else {
+            throw new AccountNotFoundException(ResponseMessage.ACCOUNT_NOT_FOUND_WITH_PROVIDED_EMAIL);
+        }
     }
 
     public void removeAccount(Account u) {

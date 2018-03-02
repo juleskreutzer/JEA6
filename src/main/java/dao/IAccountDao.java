@@ -1,6 +1,8 @@
 package dao;
 
 import domain.Account;
+import exceptions.AccountNotFoundException;
+import exceptions.EmailAllreadyRegisteredException;
 
 import java.util.List;
 
@@ -22,13 +24,13 @@ public interface IAccountDao {
      * Create a new Account
      * @param u
      */
-    void createAccount(Account u);
+    void createAccount(Account u) throws EmailAllreadyRegisteredException;
 
     /**
      * Edit an existing Account
      * @param u
      */
-    void editAccount(Account u);
+    void editAccount(Account u) throws AccountNotFoundException;
 
     /**
      * Remove an existing Account

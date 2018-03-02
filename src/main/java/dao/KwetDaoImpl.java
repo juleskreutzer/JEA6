@@ -1,6 +1,8 @@
 package dao;
 
 import domain.Kwet;
+import exceptions.KwetNotFoundException;
+import util.ResponseMessage;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Model;
@@ -32,8 +34,12 @@ public class KwetDaoImpl implements IKwetDoa{
         em.persist(k);
     }
 
-    public void edit(Kwet k) {
-        em.merge(k);
+    public void edit(Kwet k) throws KwetNotFoundException {
+        if(this.findById(k.getId()) != null) {
+            em.merge(k);
+        } else {
+            throw new KwetNotFoundException(ResponseMessage.KWET_NOT_FOUND_WITH_PROVIDED_ID);
+        }
     }
 
     public void remove(Kwet k) {
