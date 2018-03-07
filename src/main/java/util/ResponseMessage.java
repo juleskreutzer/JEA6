@@ -24,6 +24,7 @@ public class ResponseMessage {
     public final static String UNABLE_TO_CREATE_ACCOUNT = "Unable to create new account";
     public final static String EMAIL_ALLREADY_REGISTERED = "The provided email address is allready registered for an account";
     public final static String ACCOUNT_NOT_FOUND_WITH_PROVIDED_EMAIL = "No account has been found with the provided email address";
+    public final static String ACCOUNT_NOT_FOUND_WITH_PROVIDED_ID = "No account has been found with the provided ID";
 
     /**
      * Error response messages for Kwet API

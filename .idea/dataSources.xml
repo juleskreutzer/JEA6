@@ -7,5 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://85.144.215.28:5432/Kwetter</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="KwetterTest@85.144.215.28" uuid="67438a40-d30d-4d78-92fd-9b98f4910f23">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://85.144.215.28:5432/KwetterTest</jdbc-url>
+    </data-source>
   </component>
 </project>

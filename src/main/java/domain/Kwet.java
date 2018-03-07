@@ -31,6 +31,8 @@ public class Kwet implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String text;
+
+    @Temporal(TemporalType.DATE)
     private Date creationDate;
 
     @ManyToOne(optional = false)

@@ -6,7 +6,7 @@
 
     <container qualifier="glassfish" default="true">
         <configuration>
-            <property name="glassFishHome">/Volumes/Nifty_SD/Glassfish/glassfish</property>
+            <property name="glassFishHome">/Volumes/Nifty_SD/Glassfish</property>
         </configuration>
     </container>
 

@@ -2,6 +2,7 @@ package rest;
 
 import domain.Kwet;
 import exceptions.KwetNotFoundException;
+import service.AccountService;
 import service.KwetService;
 import util.ResponseMessage;
 
@@ -11,6 +12,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 
@@ -26,11 +28,14 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
  */
 
 @Stateless
-@ApplicationPath("/kwets")
+@Path("/kwets")
 public class KwetApi {
 
     @Inject
     private KwetService service;
+
+    @Inject
+    private AccountService accountService;
 
     @GET
     @Produces(APPLICATION_JSON)
@@ -49,7 +54,7 @@ public class KwetApi {
     @Produces(APPLICATION_JSON)
     @Path("/id/{id}")
     public Kwet getById(@PathParam("id") long id) {
-        if(id < 0) {
+        if(id <= 0) {
             throw new WebApplicationException(ResponseMessage.PARAM_MISSING, Response.Status.NOT_ACCEPTABLE);
         }
 
@@ -72,7 +77,7 @@ public class KwetApi {
 
         Collection<Kwet> result = service.findByText(text);
 
-        if(result == null) {
+        if(result == null || result.size() < 1) {
             throw new WebApplicationException(Response.Status.NO_CONTENT);
         }
 
@@ -86,6 +91,11 @@ public class KwetApi {
         if(id < 0) {
             throw new WebApplicationException(ResponseMessage.PARAM_MISSING, Response.Status.NOT_ACCEPTABLE);
         }
+
+        if(accountService.findById(id) == null) {
+            throw new WebApplicationException(ResponseMessage.ACCOUNT_NOT_FOUND_WITH_PROVIDED_ID, Response.Status.NO_CONTENT);
+        }
+
 
         Collection<Kwet> result = service.findByOwnerId(id);
 
@@ -136,7 +146,9 @@ public class KwetApi {
 
         service.create(kwet);
 
-        ArrayList<Kwet> tempResult = (ArrayList<Kwet>) service.findByOwnerId(kwet.getOwner().getId());
+        List<Kwet> tempResult = service.findByOwnerId(kwet.getOwner().getId());
+
+//        ArrayList<Kwet> tempResult = (ArrayList<Kwet>) service.findByOwnerId(kwet.getOwner().getId());
 
         if(tempResult != null) {
             for(Kwet k : tempResult) {

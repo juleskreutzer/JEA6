@@ -10,5 +10,14 @@
       <user-name>postgres</user-name>
       <introspection-schemas>Kwetter:public</introspection-schemas>
     </data-source>
+    <data-source name="KwetterTest@85.144.215.28" uuid="67438a40-d30d-4d78-92fd-9b98f4910f23">
+      <database-info product="PostgreSQL" version="9.5.12" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>KwetterTest:public</introspection-schemas>
+    </data-source>
   </component>
 </project>

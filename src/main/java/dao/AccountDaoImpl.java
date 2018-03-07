@@ -33,6 +33,10 @@ public class AccountDaoImpl implements IAccountDao {
     @PersistenceContext(unitName = "KwetterGlassfish")
     private EntityManager em;
 
+    public void setEntityManager(EntityManager em) {
+        this.em = em;
+    }
+
     public void createAccount(Account u) throws EmailAllreadyRegisteredException {
         if(this.findAccountByEmail(u.getEmail()) == null) {
             em.persist(u);

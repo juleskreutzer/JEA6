@@ -7,7 +7,7 @@ import exceptions.KwetNotFoundException;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.inject.Named;
-import java.util.Collection;
+import java.util.List;
 
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -27,7 +27,7 @@ public class KwetService {
     @Inject
     KwetDaoImpl kwetDao;
 
-    public Collection<Kwet> getAllKwets() {
+    public List<Kwet> getAllKwets() {
         return kwetDao.findAll();
     }
 
@@ -35,11 +35,11 @@ public class KwetService {
         return kwetDao.findById(id);
     }
 
-    public Collection<Kwet> findByText(String text) {
+    public List<Kwet> findByText(String text) {
         return kwetDao.findByText(text);
     }
 
-    public Collection<Kwet> findByOwnerId(long id) {
+    public List<Kwet> findByOwnerId(long id) {
         return kwetDao.findByOwnerId(id);
     }
 

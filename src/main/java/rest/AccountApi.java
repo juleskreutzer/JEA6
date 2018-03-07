@@ -68,7 +68,7 @@ public class AccountApi {
     @Path("/id/{id}")
     @Produces(APPLICATION_JSON)
     public Account findAccountById(@PathParam("id") long id) {
-        if(id < 0) {
+        if(id <= 0) {
             throw new WebApplicationException(ResponseMessage.PARAM_MISSING, Response.Status.NOT_ACCEPTABLE);
         }
         Account result = service.findById(id);
