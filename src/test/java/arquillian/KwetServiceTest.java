@@ -1,10 +1,9 @@
-package service;
+package arquillian;
 
 import dao.KwetDaoImpl;
 import domain.Account;
 import domain.Kwet;
 import exceptions.KwetNotFoundException;
-import io.restassured.RestAssured;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
@@ -18,6 +17,7 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import service.KwetService;
 
 import java.util.ArrayList;
 import java.util.List;

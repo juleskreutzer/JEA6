@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: restassured.AccountApiTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.512 sec <<< FAILURE! - in restassured.AccountApiTest
+findAccountById(restassured.AccountApiTest)  Time elapsed: 0.921 sec  <<< ERROR!
+java.net.ConnectException: Connection refused
+	at restassured.AccountApiTest.findAccountById(AccountApiTest.java:49)
+
+getAllAccounts(restassured.AccountApiTest)  Time elapsed: 0.017 sec  <<< ERROR!
+java.net.ConnectException: Connection refused
+	at restassured.AccountApiTest.getAllAccounts(AccountApiTest.java:37)
+
+findAccountByEmail(restassured.AccountApiTest)  Time elapsed: 0.017 sec  <<< ERROR!
+java.net.ConnectException: Connection refused
+	at restassured.AccountApiTest.findAccountByEmail(AccountApiTest.java:42)
+

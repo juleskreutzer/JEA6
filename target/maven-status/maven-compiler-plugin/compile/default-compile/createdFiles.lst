@@ -8,8 +8,10 @@ dao/IAccountDao.class
 util/ROLE.class
 dao/IKwetDoa.class
 domain/Kwet.class
+exceptions/EmailAllreadyRegisteredException.class
 domain/AccountRegistration.class
 dao/AccountDaoImpl.class
-HelloWorld.class
+exceptions/KwetNotFoundException.class
+exceptions/AccountNotFoundException.class
 rest/KwetApi.class
 service/AccountService.class

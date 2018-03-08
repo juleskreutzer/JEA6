@@ -1,4 +1,4 @@
-package rest;
+package arquillian;
 
 import dao.KwetDaoImpl;
 import domain.Account;
@@ -16,6 +16,7 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import rest.KwetApi;
 import service.KwetService;
 
 import java.util.ArrayList;

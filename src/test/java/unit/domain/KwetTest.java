@@ -1,5 +1,7 @@
-package domain;
+package unit.domain;
 
+import domain.Account;
+import domain.Kwet;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

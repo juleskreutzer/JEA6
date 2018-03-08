@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: arquillian.AccountDaoImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE! - in arquillian.AccountDaoImplTest
+arquillian.AccountDaoImplTest  Time elapsed: 0.012 sec  <<< ERROR!
+java.lang.RuntimeException: Arquillian initialization has already been attempted, but failed. See previous exceptions for cause
+Caused by: java.lang.RuntimeException: Could not create new instance of class org.jboss.arquillian.test.impl.EventTestRunnerAdaptor
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.RuntimeException: Could not create a new instance of class org.jboss.arquillian.core.impl.ManagerImpl see cause.
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoSuchMethodError: org.jboss.arquillian.core.spi.ExtensionLoader.loadVetoed()Ljava/util/Map;
+

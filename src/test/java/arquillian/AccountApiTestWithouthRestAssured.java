@@ -1,4 +1,4 @@
-package rest;
+package arquillian;
 
 import dao.AccountDaoImpl;
 import domain.Account;
@@ -15,6 +15,7 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import rest.AccountApi;
 import service.AccountService;
 
 import javax.ws.rs.WebApplicationException;

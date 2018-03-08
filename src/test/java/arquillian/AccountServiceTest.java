@@ -1,4 +1,4 @@
-package service;
+package arquillian;
 
 import dao.AccountDaoImpl;
 import domain.Account;
@@ -17,6 +17,7 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import service.AccountService;
 
 import java.util.ArrayList;
 import java.util.List;

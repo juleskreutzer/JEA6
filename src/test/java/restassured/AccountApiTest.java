@@ -1,4 +1,4 @@
-package rest;
+package restassured;
 
 import io.restassured.RestAssured;
 import io.restassured.parsing.Parser;

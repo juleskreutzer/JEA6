@@ -1,5 +1,6 @@
-package dao;
+package arquillian;
 
+import dao.AccountDaoImpl;
 import domain.Account;
 import exceptions.EmailAllreadyRegisteredException;
 import org.jboss.arquillian.container.test.api.Deployment;

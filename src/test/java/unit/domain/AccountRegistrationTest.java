@@ -1,5 +1,6 @@
-package domain;
+package unit.domain;
 
+import domain.AccountRegistration;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
