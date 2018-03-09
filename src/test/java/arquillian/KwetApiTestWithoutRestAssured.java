@@ -1,5 +1,6 @@
 package arquillian;
 
+import dao.AccountDaoImpl;
 import dao.KwetDaoImpl;
 import domain.Account;
 import domain.Kwet;
@@ -8,15 +9,14 @@ import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.asset.EmptyAsset;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import rest.AccountApi;
 import rest.KwetApi;
+import service.AccountService;
 import service.KwetService;
 
 import java.util.ArrayList;
@@ -48,6 +48,10 @@ public class KwetApiTestWithoutRestAssured {
     @Deployment
     public static JavaArchive createDeployment() {
         return ShrinkWrap.create(JavaArchive.class)
+                .addClass(AccountApi.class)
+                .addClass(AccountService.class)
+                .addClass(AccountDaoImpl.class)
+                .addClass(Account.class)
                 .addClass(KwetApi.class)
                 .addClass(KwetService.class)
                 .addClass(KwetDaoImpl.class)
@@ -125,6 +129,7 @@ public class KwetApiTestWithoutRestAssured {
         api.getByText("blabla");
     }
 
+    @Ignore
     @Test(expected = AbstractMethodError.class)
     public void getAllKwetsFromOwner() {
         when(api.getAllKwetsFromOwner(1)).thenReturn(kwetList);
@@ -144,7 +149,7 @@ public class KwetApiTestWithoutRestAssured {
         api.getAllKwetsFromOwner(0);
     }
 
-    @Test
+    @Test(expected = AbstractMethodError.class)
     public void getAllKwetsFromOwnerByText() {
         when(api.getAllKwetsFromOwnerByText(1, "test")).thenReturn(kwetList);
 

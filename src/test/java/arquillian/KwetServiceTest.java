@@ -1,5 +1,6 @@
 package arquillian;
 
+import dao.AccountDaoImpl;
 import dao.KwetDaoImpl;
 import domain.Account;
 import domain.Kwet;
@@ -17,6 +18,7 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import service.AccountService;
 import service.KwetService;
 
 import java.util.ArrayList;
@@ -43,6 +45,9 @@ public class KwetServiceTest {
                 .addClass(KwetService.class)
                 .addClass(KwetDaoImpl.class)
                 .addClass(Kwet.class)
+                .addClass(AccountService.class)
+                .addClass(AccountDaoImpl.class)
+                .addClass(Account.class)
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
     }
 

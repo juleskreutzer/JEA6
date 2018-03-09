@@ -1,8 +1,10 @@
 rest/AccountApi.class
 rest/JaxRsApplication.class
 dao/KwetDaoImpl.class
+domain/Kwet_.class
 service/KwetService.class
 domain/Account.class
+domain/Account_.class
 util/ResponseMessage.class
 dao/IAccountDao.class
 util/ROLE.class

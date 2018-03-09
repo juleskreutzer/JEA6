@@ -7,18 +7,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05cd1d1f-3989-48a8-af03-debf6f966178" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_aether_provider_3_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_builder_3_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_3_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_3_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_file_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_lightweight_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_shared_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_19.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_15.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easytesting_fest_assert_1_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easytesting_fest_util_1_1_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_api_0_9_0_M2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_connector_wagon_0_9_0_M2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_impl_0_9_0_M2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_spi_0_9_0_M2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_util_0_9_0_M2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_arquillian_api_1_0_0_Alpha5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_arquillian_impl_base_1_0_0_Alpha5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_arquillian_junit_1_0_0_Alpha5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_arquillian_spi_1_0_0_Alpha5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_impl_base_1_1_4_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_initialcontext_1_1_4_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_resource_1_1_4_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_api_base_2_0_0_alpha_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_api_2_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_api_maven_2_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_impl_maven_2_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_spi_2_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_spi_maven_2_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_7_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/test-resources/glassfish-resources.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_main_extras_glassfish_embedded_all_3_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_main_extras_glassfish_embedded_all_5_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_api_1_0_0_CR7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_api_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_impl_base_1_0_0_CR7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_impl_base_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_impl_base_1_4_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_impl_base_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_spi_1_0_0_CR7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_spi_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_api_1_4_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_api_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_impl_base_1_4_0_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_spi_1_0_0_CR7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_spi_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_api_1_4_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_spi_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_impl_base_1_4_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_impl_base_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_spi_1_0_0_CR7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_api_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_container_1_4_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_container_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_protocol_arquillian_protocol_servlet_1_0_0_CR7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_protocol_arquillian_protocol_servlet_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_api_1_4_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_spi_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_impl_base_1_4_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_impl_base_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_spi_1_4_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_api_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_cdi_1_0_0_CR7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_ejb_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_ejb_1_0_0_CR7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_cdi_1_1_4_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_initialcontext_1_0_0_CR7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_resource_1_0_0_CR7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_api_1_1_0_beta_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_api_base_2_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_spi_2_0_0_alpha_5.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_spi_2_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_api_0_1_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_api_1_0_0_cr_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_api_1_2_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_spi_1_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_spi_1_2_2.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/JEA6.iml" afterPath="$PROJECT_DIR$/JEA6.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dao/AccountDaoImplTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/AccountRegistrationTest.java" afterPath="$PROJECT_DIR$/src/test/java/unit/domain/AccountRegistrationTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/AccountTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/KwetTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rest/AccountApiTest.java" afterPath="$PROJECT_DIR$/src/test/java/restassured/AccountApiTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rest/AccountApiTestWithouthRestAssured.java" afterPath="$PROJECT_DIR$/src/test/java/arquillian/AccountApiTestWithouthRestAssured.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rest/KwetApiTest.java" afterPath="$PROJECT_DIR$/src/test/java/restassured/KwetApiTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rest/KwetApiTestWithoutRestAssured.java" afterPath="$PROJECT_DIR$/src/test/java/arquillian/KwetApiTestWithoutRestAssured.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/AccountServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/arquillian/AccountServiceTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/KwetServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/arquillian/KwetServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arquillian/AccountApiTestWithouthRestAssured.java" afterPath="$PROJECT_DIR$/src/test/java/arquillian/AccountApiTestWithouthRestAssured.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arquillian/AccountDaoImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/arquillian/AccountDaoImplTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arquillian/AccountServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/arquillian/AccountServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arquillian/KwetApiTestWithoutRestAssured.java" afterPath="$PROJECT_DIR$/src/test/java/arquillian/KwetApiTestWithoutRestAssured.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arquillian/KwetServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/arquillian/KwetServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/test-resources/arquillian.xml" afterPath="$PROJECT_DIR$/src/test/test-resources/arquillian.xml" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountApiTestWithouthRestAssured.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountApiTestWithouthRestAssured.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountDaoImplTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountDaoImplTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountServiceTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountServiceTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.KwetApiTestWithoutRestAssured.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.KwetApiTestWithoutRestAssured.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.KwetServiceTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.KwetServiceTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restassured.AccountApiTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restassured.KwetApiTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.AccountRegistrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.AccountRegistrationTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.AccountTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.AccountTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.KwetTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.KwetTest.xml" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountApiTestWithouthRestAssured.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountApiTestWithouthRestAssured.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountDaoImplTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountDaoImplTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountServiceTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountServiceTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.KwetApiTestWithoutRestAssured.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/arquillian.KwetApiTestWithoutRestAssured.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.KwetServiceTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/arquillian.KwetServiceTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restassured.AccountApiTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restassured.KwetApiTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.domain.AccountRegistrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/unit.domain.AccountRegistrationTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.domain.AccountTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/unit.domain.AccountTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.domain.KwetTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/unit.domain.KwetTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/persistence.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/arquillian.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,8 +187,50 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="95" column="58" lean-forward="false" selection-start-line="95" selection-start-column="58" selection-end-line="95" selection-end-column="58" />
+            <state relative-caret-position="595">
+              <caret line="82" column="63" lean-forward="false" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KwetServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/KwetServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountApiTestWithouthRestAssured.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/AccountApiTestWithouthRestAssured.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="54" column="40" lean-forward="false" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arquillian.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/test-resources/arquillian.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="glassfish-resources.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/test-resources/glassfish-resources.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -154,8 +281,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/rest/UserApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Enums/ROLE.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ef64cad-a078-44e6-ba1f-b326706a7b3c/console_1.sql" />
@@ -189,7 +314,6 @@
         <option value="$PROJECT_DIR$/src/test/java/rest/AccountApiTestWithouthRestAssured.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Kwet.java" />
-        <option value="$PROJECT_DIR$/src/test/test-resources/arquillian.xml" />
         <option value="$PROJECT_DIR$/src/test/test-resources/META-INF/persistence.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/67438a40-d30d-4d78-92fd-9b98f4910f23/console.sql" />
         <option value="$PROJECT_DIR$/src/test/java/dao/AccountDaoImplTest.java" />
@@ -200,10 +324,13 @@
         <option value="$PROJECT_DIR$/src/test/java/restassured/AccountApiTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/KwetApiTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/arquillian/AccountDaoImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/arquillian/AccountApiTestWithouthRestAssured.java" />
-        <option value="$PROJECT_DIR$/src/test/java/arquillian/KwetApiTestWithoutRestAssured.java" />
         <option value="$PROJECT_DIR$/src/test/java/arquillian/AccountServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/arquillian/KwetApiTestWithoutRestAssured.java" />
+        <option value="$PROJECT_DIR$/arquillian.xml" />
+        <option value="$PROJECT_DIR$/src/test/test-resources/arquillian.xml" />
+        <option value="$PROJECT_DIR$/src/test/test-resources/glassfish-resources.xml" />
         <option value="$PROJECT_DIR$/src/test/java/arquillian/KwetServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/arquillian/AccountApiTestWithouthRestAssured.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -313,98 +440,7 @@
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
               <item name="JEA6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arquillian" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="restassured" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
@@ -423,38 +459,7 @@
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: javax:javaee-web-api:8.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: javax:javaee-web-api:8.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="javaee-web-api-8.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: javax:javaee-web-api:8.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="javaee-web-api-8.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: javax:javaee-web-api:8.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="javaee-web-api-8.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="rs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -472,7 +477,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;MySQL" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="JPA.DatabaseSchemaImportDialog" value="1ef64cad-a078-44e6-ba1f-b326706a7b3c" />
@@ -490,6 +495,9 @@
       <recent name="domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/test-resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
@@ -515,7 +523,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.domain in JEA6">
+  <component name="RunManager" selected="Arquillian JUnit.Glassfish Managed: KwetServiceTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -535,6 +543,156 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="Glassfish Managed: AccountApiTestWithouthRestAssured" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="arquillian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JEA6" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="Glassfish Managed" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="arquillian" />
+      <option name="MAIN_CLASS_NAME" value="arquillian.AccountApiTestWithouthRestAssured" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Glassfish Managed: AccountApiTestWithouthRestAssured.findAccountByEmail" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="arquillian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JEA6" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="Glassfish Managed" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="arquillian" />
+      <option name="MAIN_CLASS_NAME" value="arquillian.AccountApiTestWithouthRestAssured" />
+      <option name="METHOD_NAME" value="findAccountByEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Glassfish Managed: AccountDaoImplTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="arquillian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JEA6" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="Glassfish Managed" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="arquillian" />
+      <option name="MAIN_CLASS_NAME" value="arquillian.AccountDaoImplTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Glassfish Managed: KwetApiTestWithoutRestAssured" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="arquillian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JEA6" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="Glassfish Managed" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="arquillian" />
+      <option name="MAIN_CLASS_NAME" value="arquillian.KwetApiTestWithoutRestAssured" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Glassfish Managed: KwetServiceTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="arquillian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JEA6" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="Glassfish Managed" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="arquillian" />
+      <option name="MAIN_CLASS_NAME" value="arquillian.KwetServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="Glassfish 5.0.0 Local" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
@@ -628,27 +786,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="domain in JEA6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JEA6" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="directory" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <dir value="$PROJECT_DIR$/src/test/java/unit/domain" />
-      <patterns />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -689,13 +826,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="GlassFish Server.Glassfish 5.0.0 Local" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.domain in JEA6" />
+      <item index="1" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: KwetApiTestWithoutRestAssured" />
+      <item index="2" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountApiTestWithouthRestAssured" />
+      <item index="3" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountApiTestWithouthRestAssured.findAccountByEmail" />
+      <item index="4" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountDaoImplTest" />
+      <item index="5" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: KwetServiceTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.domain in JEA6" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: KwetServiceTest" />
+        <item index="1" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountApiTestWithouthRestAssured" />
+        <item index="2" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountDaoImplTest" />
+        <item index="3" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountApiTestWithouthRestAssured.findAccountByEmail" />
+        <item index="4" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: KwetApiTestWithoutRestAssured" />
       </list>
     </recent_temporary>
   </component>
@@ -732,47 +877,48 @@
       <workItem from="1520429987159" duration="3449000" />
       <workItem from="1520435226040" duration="75000" />
       <workItem from="1520435986358" duration="415000" />
-      <workItem from="1520499703286" duration="2984000" />
+      <workItem from="1520499703286" duration="11185000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Glassfish_Managed__AccountDaoImplTest - 2018.03.07 at 15h 24m 16s.xml">
+    <history-entry file="Glassfish_Managed__AccountApiTestWithouthRestAssured - 2018.03.08 at 12h 59m 29s.xml">
+      <configuration name="Glassfish Managed: AccountApiTestWithouthRestAssured" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Glassfish_Managed__AccountApiTestWithouthRestAssured - 2018.03.08 at 14h 55m 03s.xml">
+      <configuration name="Glassfish Managed: AccountApiTestWithouthRestAssured" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Glassfish_Managed__AccountApiTestWithouthRestAssured - 2018.03.08 at 15h 25m 28s.xml">
+      <configuration name="Glassfish Managed: AccountApiTestWithouthRestAssured" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Glassfish_Managed__AccountApiTestWithouthRestAssured - 2018.03.08 at 15h 25m 52s.xml">
+      <configuration name="Glassfish Managed: AccountApiTestWithouthRestAssured" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Glassfish_Managed__AccountApiTestWithouthRestAssured - 2018.03.08 at 15h 26m 27s.xml">
+      <configuration name="Glassfish Managed: AccountApiTestWithouthRestAssured" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Glassfish_Managed__AccountApiTestWithouthRestAssured_findAccountByEmail - 2018.03.08 at 14h 12m 40s.xml">
+      <configuration name="Glassfish Managed: AccountApiTestWithouthRestAssured.findAccountByEmail" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="Glassfish_Managed__AccountDaoImplTest - 2018.03.08 at 14h 21m 55s.xml">
       <configuration name="Glassfish Managed: AccountDaoImplTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="Glassfish_Managed__AccountDaoImplTest - 2018.03.07 at 15h 31m 00s.xml">
+    <history-entry file="Glassfish_Managed__AccountDaoImplTest - 2018.03.08 at 14h 22m 57s.xml">
       <configuration name="Glassfish Managed: AccountDaoImplTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="Glassfish_Managed__AccountDaoImplTest - 2018.03.07 at 15h 33m 21s.xml">
-      <configuration name="Glassfish Managed: AccountDaoImplTest" configurationId="ArquillianJUnit" />
+    <history-entry file="Glassfish_Managed__KwetApiTestWithoutRestAssured - 2018.03.08 at 12h 55m 09s.xml">
+      <configuration name="Glassfish Managed: KwetApiTestWithoutRestAssured" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="Glassfish_Managed__AccountDaoImplTest - 2018.03.07 at 15h 33m 59s.xml">
-      <configuration name="Glassfish Managed: AccountDaoImplTest" configurationId="ArquillianJUnit" />
-    </history-entry>
-    <history-entry file="Glassfish_Managed__dao_in_JEA6 - 2018.03.07 at 15h 36m 28s.xml">
-      <configuration name="Glassfish Managed: dao in JEA6" configurationId="ArquillianJUnit" />
-    </history-entry>
-    <history-entry file="Glassfish_Managed__java_in_JEA6 - 2018.03.07 at 15h 35m 31s.xml">
-      <configuration name="Glassfish Managed: java in JEA6" configurationId="ArquillianJUnit" />
-    </history-entry>
-    <history-entry file="Glassfish_Managed__service_in_JEA6 - 2018.03.07 at 15h 37m 01s.xml">
-      <configuration name="Glassfish Managed: service in JEA6" configurationId="ArquillianJUnit" />
-    </history-entry>
-    <history-entry file="Glassfish_Managed__service_in_JEA6 - 2018.03.07 at 16h 08m 15s.xml">
-      <configuration name="Glassfish Managed: service in JEA6" configurationId="ArquillianJUnit" />
-    </history-entry>
-    <history-entry file="domain_in_JEA6 - 2018.03.07 at 15h 36m 23s.xml">
-      <configuration name="domain in JEA6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="domain_in_JEA6 - 2018.03.08 at 11h 56m 58s.xml">
-      <configuration name="domain in JEA6" configurationId="JUnit" />
+    <history-entry file="Glassfish_Managed__KwetServiceTest - 2018.03.09 at 14h 33m 49s.xml">
+      <configuration name="Glassfish Managed: KwetServiceTest" configurationId="ArquillianJUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88648000" />
+    <option name="totallyTimeSpent" value="96849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29785055" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
@@ -796,7 +942,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29785055" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24481075" sideWeight="0.5233236" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24481075" sideWeight="0.48244274" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -862,7 +1008,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -871,29 +1017,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Startup.java" />
-    <entry file="uml://Persistence/JavaeeElement:/88459f57/KwetterGlassfish/JEA6/jpa/JPA/PersistenceModel">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Persistence</ID>
-          <OriginalElement>JavaeeElement:/88459f57/KwetterGlassfish/JEA6/jpa/JPA/PersistenceModel</OriginalElement>
-          <nodes>
-            <node x="" y="">User#file:///Volumes/Nifty_SD/Git/JEA6/src/main/java/domain/User.java</node>
-            <node x="" y="">Kwet#file:///Volumes/Nifty_SD/Git/JEA6/src/main/java/domain/Kwet.java</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="129.0" y="186.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Embeddables</Category>
-            <Category>Properties</Category>
-            <Category>Superclasses</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1ef64cad-a078-44e6-ba1f-b326706a7b3c/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1067,16 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/KwetApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/8.0/javaee-web-api-8.0.jar!/javax/ws/rs/core/Response.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1104,14 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test-resources/arquillian.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1219,57 +1324,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/AccountDaoImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/KwetApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="e#1806#1807#0" expanded="false" />
-            <element signature="e#1832#1833#0" expanded="false" />
-            <element signature="e#1867#1868#0" expanded="false" />
-            <element signature="e#1910#1911#0" expanded="false" />
-            <element signature="e#1946#1947#0" expanded="false" />
-            <element signature="e#1990#1991#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/AccountApiTestWithouthRestAssured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/KwetApiTestWithoutRestAssured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state relative-caret-position="220">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/AccountServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="405">
+          <caret line="55" column="37" lean-forward="false" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/KwetApiTestWithoutRestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="57" column="37" lean-forward="false" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/AccountDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="44" column="37" lean-forward="false" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+          <folding>
+            <element signature="e#2215#2216#0" expanded="false" />
+            <element signature="e#2256#2257#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-core/1.4.0.Final/arquillian-junit-core-1.4.0.Final.jar!/org/jboss/arquillian/junit/JUnitClassRulesFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test-resources/arquillian.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test-resources/glassfish-resources.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/KwetServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="367">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/AccountApiTestWithouthRestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="54" column="40" lean-forward="false" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="95" column="58" lean-forward="false" selection-start-line="95" selection-start-column="58" selection-end-line="95" selection-end-column="58" />
+        <state relative-caret-position="595">
+          <caret line="82" column="63" lean-forward="false" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
           <folding />
         </state>
       </provider>
@@ -1341,12 +1476,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JEA6</last-edited>
+          <last-edited>Web|JEA6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1366,7 +1500,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: javax:javaee-web-api:8.0</last-edited>
+          <last-edited>Maven: com.google.collections:google-collections:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

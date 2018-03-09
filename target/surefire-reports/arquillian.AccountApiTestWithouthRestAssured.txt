@@ -1,11 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: arquillian.AccountApiTestWithouthRestAssured
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.312 sec <<< FAILURE! - in arquillian.AccountApiTestWithouthRestAssured
-arquillian.AccountApiTestWithouthRestAssured  Time elapsed: 0.308 sec  <<< ERROR!
-java.lang.RuntimeException: Could not create new instance of class org.jboss.arquillian.test.impl.EventTestRunnerAdaptor
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: java.lang.RuntimeException: Could not create a new instance of class org.jboss.arquillian.core.impl.ManagerImpl see cause.
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: java.lang.NoSuchMethodError: org.jboss.arquillian.core.spi.ExtensionLoader.loadVetoed()Ljava/util/Map;
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.257 sec <<< FAILURE! - in arquillian.AccountApiTestWithouthRestAssured
+arquillian.AccountApiTestWithouthRestAssured  Time elapsed: 0.256 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No methods annotated with org.jboss.arquillian.api.Deployment found
+
+arquillian.AccountApiTestWithouthRestAssured  Time elapsed: 0.257 sec  <<< ERROR!
+java.lang.NullPointerException
 

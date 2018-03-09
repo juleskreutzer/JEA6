@@ -1,7 +1,9 @@
 package arquillian;
 
 import dao.AccountDaoImpl;
+import dao.KwetDaoImpl;
 import domain.Account;
+import domain.Kwet;
 import exceptions.AccountNotFoundException;
 import exceptions.EmailAllreadyRegisteredException;
 import org.jboss.arquillian.container.test.api.Deployment;
@@ -17,7 +19,10 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import rest.AccountApi;
+import rest.KwetApi;
 import service.AccountService;
+import service.KwetService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,9 +46,14 @@ public class AccountServiceTest {
     @Deployment
     public static JavaArchive createDeployment() {
         return ShrinkWrap.create(JavaArchive.class)
+                .addClass(AccountApi.class)
                 .addClass(AccountService.class)
                 .addClass(AccountDaoImpl.class)
                 .addClass(Account.class)
+                .addClass(KwetApi.class)
+                .addClass(KwetService.class)
+                .addClass(KwetDaoImpl.class)
+                .addClass(Kwet.class)
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
     }
 

@@ -1,12 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: arquillian.AccountServiceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.025 sec <<< FAILURE! - in arquillian.AccountServiceTest
-arquillian.AccountServiceTest  Time elapsed: 0.024 sec  <<< ERROR!
-java.lang.RuntimeException: Arquillian initialization has already been attempted, but failed. See previous exceptions for cause
-Caused by: java.lang.RuntimeException: Could not create new instance of class org.jboss.arquillian.test.impl.EventTestRunnerAdaptor
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: java.lang.RuntimeException: Could not create a new instance of class org.jboss.arquillian.core.impl.ManagerImpl see cause.
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: java.lang.NoSuchMethodError: org.jboss.arquillian.core.spi.ExtensionLoader.loadVetoed()Ljava/util/Map;
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE! - in arquillian.AccountServiceTest
+arquillian.AccountServiceTest  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.IllegalArgumentException: No methods annotated with org.jboss.arquillian.api.Deployment found
+
+arquillian.AccountServiceTest  Time elapsed: 0.01 sec  <<< ERROR!
+java.lang.NullPointerException
 

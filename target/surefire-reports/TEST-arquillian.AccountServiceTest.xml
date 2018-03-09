@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="arquillian.AccountServiceTest" time="0.025" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="arquillian.AccountServiceTest" time="0.011" tests="2" errors="2" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"/>
@@ -62,13 +62,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="arquillian.AccountServiceTest" classname="arquillian.AccountServiceTest" time="0.024">
-    <error message="Arquillian initialization has already been attempted, but failed. See previous exceptions for cause" type="java.lang.RuntimeException">java.lang.RuntimeException: Arquillian initialization has already been attempted, but failed. See previous exceptions for cause
-Caused by: java.lang.RuntimeException: Could not create new instance of class org.jboss.arquillian.test.impl.EventTestRunnerAdaptor
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: java.lang.RuntimeException: Could not create a new instance of class org.jboss.arquillian.core.impl.ManagerImpl see cause.
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: java.lang.NoSuchMethodError: org.jboss.arquillian.core.spi.ExtensionLoader.loadVetoed()Ljava/util/Map;
+  <testcase name="arquillian.AccountServiceTest" classname="arquillian.AccountServiceTest" time="0.009">
+    <error message="No methods annotated with org.jboss.arquillian.api.Deployment found" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: No methods annotated with org.jboss.arquillian.api.Deployment found
+</error>
+  </testcase>
+  <testcase name="arquillian.AccountServiceTest" classname="arquillian.AccountServiceTest" time="0.01">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
 </error>
   </testcase>
 </testsuite>

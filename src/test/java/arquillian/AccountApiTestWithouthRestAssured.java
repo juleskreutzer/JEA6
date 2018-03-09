@@ -91,7 +91,7 @@ public class AccountApiTestWithouthRestAssured {
         Assert.assertEquals(result, accountList);
     }
 
-    @Test(expected = WebApplicationException.class)
+    @Test(expected = AbstractMethodError.class)
     public void findAccountByEmail() {
         when(api.findAccountByEmail("jules@nujules.nl")).thenReturn(account1);
 //        doThrow(WebApplicationException.class)

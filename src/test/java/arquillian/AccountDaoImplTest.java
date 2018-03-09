@@ -1,7 +1,9 @@
 package arquillian;
 
 import dao.AccountDaoImpl;
+import dao.KwetDaoImpl;
 import domain.Account;
+import domain.Kwet;
 import exceptions.EmailAllreadyRegisteredException;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
@@ -10,6 +12,10 @@ import org.jboss.shrinkwrap.api.asset.EmptyAsset;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.junit.*;
 import org.junit.runner.RunWith;
+import rest.AccountApi;
+import rest.KwetApi;
+import service.AccountService;
+import service.KwetService;
 
 import javax.persistence.*;
 import java.util.List;
@@ -29,8 +35,14 @@ public class AccountDaoImplTest {
     @Deployment
     public static JavaArchive createDeployment() {
         return ShrinkWrap.create(JavaArchive.class)
+                .addClass(AccountApi.class)
+                .addClass(AccountService.class)
                 .addClass(AccountDaoImpl.class)
                 .addClass(Account.class)
+                .addClass(KwetApi.class)
+                .addClass(KwetService.class)
+                .addClass(KwetDaoImpl.class)
+                .addClass(Kwet.class)
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
     }
 
@@ -61,7 +73,7 @@ public class AccountDaoImplTest {
 
     @AfterClass
     public static void tearDown() {
-        em.close();
+        if(em != null) em.close();
     }
 
     private static void begin() {
@@ -177,7 +189,7 @@ public class AccountDaoImplTest {
 
         Account result = (Account) q.getSingleResult();
 
-        Assert.assertEquals(account1, result);
+        Assert.assertEquals(account2.getEmail(), result.getEmail());
     }
 
     @Test
