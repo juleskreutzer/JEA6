@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: arquillian.AccountDaoImplTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE! - in arquillian.AccountDaoImplTest
-arquillian.AccountDaoImplTest  Time elapsed: 0.009 sec  <<< ERROR!
-java.lang.IllegalArgumentException: No methods annotated with org.jboss.arquillian.api.Deployment found
-
-arquillian.AccountDaoImplTest  Time elapsed: 0.009 sec  <<< ERROR!
-java.lang.NullPointerException
-
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 5.547 sec - in arquillian.AccountDaoImplTest

@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: arquillian.KwetApiTestWithoutRestAssured
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.021 sec <<< FAILURE! - in arquillian.KwetApiTestWithoutRestAssured
-arquillian.KwetApiTestWithoutRestAssured  Time elapsed: 0.016 sec  <<< ERROR!
-java.lang.IllegalArgumentException: No methods annotated with org.jboss.arquillian.api.Deployment found
-
-arquillian.KwetApiTestWithoutRestAssured  Time elapsed: 0.02 sec  <<< ERROR!
-java.lang.NullPointerException
-
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.957 sec - in arquillian.KwetApiTestWithoutRestAssured

@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: arquillian.AccountServiceTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE! - in arquillian.AccountServiceTest
-arquillian.AccountServiceTest  Time elapsed: 0.009 sec  <<< ERROR!
-java.lang.IllegalArgumentException: No methods annotated with org.jboss.arquillian.api.Deployment found
-
-arquillian.AccountServiceTest  Time elapsed: 0.01 sec  <<< ERROR!
-java.lang.NullPointerException
-
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.352 sec - in arquillian.AccountServiceTest

@@ -189,7 +189,7 @@ public class AccountDaoImplTest {
 
         Account result = (Account) q.getSingleResult();
 
-        Assert.assertEquals(account2.getEmail(), result.getEmail());
+        Assert.assertEquals(account1.getEmail(), result.getEmail());
     }
 
     @Test

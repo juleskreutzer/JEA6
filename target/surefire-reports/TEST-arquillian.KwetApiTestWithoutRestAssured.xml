@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="arquillian.KwetApiTestWithoutRestAssured" time="0.021" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="arquillian.KwetApiTestWithoutRestAssured" time="0.957" tests="7" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"/>
@@ -62,12 +62,28 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="arquillian.KwetApiTestWithoutRestAssured" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.016">
-    <error message="No methods annotated with org.jboss.arquillian.api.Deployment found" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: No methods annotated with org.jboss.arquillian.api.Deployment found
-</error>
+  <testcase name="getAllKwetsFromOwner" classname="arquillian.KwetApiTestWithoutRestAssured" time="0">
+    <skipped/>
+    <system-out><![CDATA[PlainTextActionReporterSUCCESSNo monitoring data to report.
+]]></system-out>
+    <system-err><![CDATA[Mar 09, 2018 4:34:55 PM com.sun.ejb.containers.BaseContainer initializeHome
+INFO: EJB5181:Portable JNDI names for EJB AccountApi: [java:global/test/AccountApi, java:global/test/AccountApi!rest.AccountApi]
+Mar 09, 2018 4:34:55 PM com.sun.ejb.containers.BaseContainer initializeHome
+INFO: EJB5181:Portable JNDI names for EJB KwetService: [java:global/test/KwetService!service.KwetService, java:global/test/KwetService]
+Mar 09, 2018 4:34:55 PM com.sun.ejb.containers.BaseContainer initializeHome
+INFO: EJB5181:Portable JNDI names for EJB AccountService: [java:global/test/AccountService, java:global/test/AccountService!service.AccountService]
+Mar 09, 2018 4:34:55 PM com.sun.ejb.containers.BaseContainer initializeHome
+INFO: EJB5181:Portable JNDI names for EJB KwetApi: [java:global/test/KwetApi, java:global/test/KwetApi!rest.KwetApi]
+Mar 09, 2018 4:34:56 PM com.sun.enterprise.web.WebApplication start
+INFO: WEB0671: Loading application [test] at [/test]
+Mar 09, 2018 4:34:56 PM org.glassfish.deployment.admin.DeployCommand execute
+INFO: test was successfully deployed in 413 milliseconds.
+]]></system-err>
   </testcase>
-  <testcase name="arquillian.KwetApiTestWithoutRestAssured" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.02">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
+  <testcase name="getAllKwets" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.085"/>
+  <testcase name="updateKwet" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.009"/>
+  <testcase name="getAllKwetsFromOwnerByText" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.013"/>
+  <testcase name="getById" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.012"/>
+  <testcase name="getByText" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.012"/>
+  <testcase name="createKwet" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.011"/>
 </testsuite>

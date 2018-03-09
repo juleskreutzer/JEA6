@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="arquillian.AccountDaoImplTest" time="0.009" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="arquillian.AccountDaoImplTest" time="5.547" tests="14" errors="0" skipped="3" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"/>
@@ -62,12 +62,24 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="arquillian.AccountDaoImplTest" classname="arquillian.AccountDaoImplTest" time="0.009">
-    <error message="No methods annotated with org.jboss.arquillian.api.Deployment found" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: No methods annotated with org.jboss.arquillian.api.Deployment found
-</error>
+  <testcase name="findAccountByID" classname="arquillian.AccountDaoImplTest" time="0.034"/>
+  <testcase name="getFollowersCount" classname="arquillian.AccountDaoImplTest" time="0.016"/>
+  <testcase name="findAccountByFullName" classname="arquillian.AccountDaoImplTest" time="0.144"/>
+  <testcase name="getAllFollowers" classname="arquillian.AccountDaoImplTest" time="0.017"/>
+  <testcase name="getAllFollowing" classname="arquillian.AccountDaoImplTest" time="0.012"/>
+  <testcase name="removeAccount" classname="arquillian.AccountDaoImplTest" time="0.178"/>
+  <testcase name="login" classname="arquillian.AccountDaoImplTest" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="arquillian.AccountDaoImplTest" classname="arquillian.AccountDaoImplTest" time="0.009">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
+  <testcase name="editAccount" classname="arquillian.AccountDaoImplTest" time="0.133"/>
+  <testcase name="createAccount" classname="arquillian.AccountDaoImplTest" time="0.177"/>
+  <testcase name="findAccountByPartOfFullName" classname="arquillian.AccountDaoImplTest" time="0">
+    <skipped/>
   </testcase>
+  <testcase name="getFollowingCount" classname="arquillian.AccountDaoImplTest" time="0.014"/>
+  <testcase name="findAccountByPartOfEmail" classname="arquillian.AccountDaoImplTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getAllAccounts" classname="arquillian.AccountDaoImplTest" time="0.133"/>
+  <testcase name="findAccountByEmail" classname="arquillian.AccountDaoImplTest" time="0.033"/>
 </testsuite>

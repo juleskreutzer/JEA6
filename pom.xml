@@ -25,12 +25,28 @@
         </dependencies>
     </dependencyManagement>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <includes>
+                        <include>**/unit/domain/*</include>
+                        <include>**/arquillian/*</include>
+                    </includes>
+                    <excludes>
+                        <exclude>**/restassured/*</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 
     <profiles>
         <profile>
-            <!-- For use in jenkins: execute with goal -P development-->
-            <!-- -P test-development should also work -->
             <id>development</id>
             <build>
                 <finalName>Kwetter-Dev</finalName>
@@ -62,9 +78,6 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <version>2.19.1</version>
                         <configuration>
-                            <systemProperties>
-                                <arquillian.launch>glassfish-embedded</arquillian.launch>
-                            </systemProperties>
                             <includes>
                                 <include>**/unit/domain/*</include>
                                 <include>**/arquillian/*</include>
@@ -73,44 +86,6 @@
                                 <exclude>**/restassured/*</exclude>
                             </excludes>
                         </configuration>
-                    </plugin>
-                    <plugin>
-                        <groupId>org.codehaus.cargo</groupId>
-                        <artifactId>cargo-maven2-plugin</artifactId>
-                        <version>1.6.7</version>
-                        <configuration>
-                            <container>
-                                <containerId>glassfish-embedded</containerId>
-                                <type>remote</type>
-                            </container>
-                            <configuration>
-                                <type>runtime</type>
-                                <properties>
-                                    <cargo.hostname>localhost:4949</cargo.hostname>
-                                    <cargo.remote.username>admin</cargo.remote.username>
-                                    <cargo.remote.password>password</cargo.remote.password>
-                                    <cargo.remote.port>8080</cargo.remote.port>
-                                    <cargo.glassfish.domain.name>/Kwetter</cargo.glassfish.domain.name>
-                                </properties>
-                            </configuration>
-                            <deployables>
-                                <deployable>
-                                    <groupId>${project.groupId}</groupId>
-                                    <artifactId>${project.artifactId}</artifactId>
-                                    <type>war</type>
-                                    <properties>
-                                        <context>/Kwetter</context>
-                                    </properties>
-                                </deployable>
-                            </deployables>
-                        </configuration>
-                        <dependencies>
-                            <dependency>
-                                <groupId>org.glassfish.deployment</groupId>
-                                <artifactId>deployment-client</artifactId>
-                                <version>3.2-b06</version>
-                            </dependency>
-                        </dependencies>
                     </plugin>
                 </plugins>
             </build>
@@ -146,11 +121,10 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>org.glassfish.main.extras</groupId>
             <artifactId>glassfish-embedded-all</artifactId>
-            <version>LATEST</version>
+            <version>3.1.2</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -163,17 +137,6 @@
             <groupId>org.jboss.arquillian.junit</groupId>
             <artifactId>arquillian-junit-container</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.arquillian</groupId>
-            <artifactId>arquillian-junit</artifactId>
-            <version>1.0.0.Alpha5</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.arquillian.junit</groupId>
-            <artifactId>arquillian-junit-core</artifactId>
-            <version>1.4.0.Final</version>
         </dependency>
         <dependency>
             <groupId>org.jboss.shrinkwrap</groupId>
