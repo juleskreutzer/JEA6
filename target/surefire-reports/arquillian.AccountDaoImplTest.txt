@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: arquillian.AccountDaoImplTest
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 5.547 sec - in arquillian.AccountDaoImplTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 12.31 sec

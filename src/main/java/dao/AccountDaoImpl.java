@@ -7,7 +7,7 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import util.ResponseMessage;
 
 import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.inject.Model;
+import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
@@ -26,7 +26,7 @@ import java.util.List;
  */
 
 @ApplicationScoped
-@Model
+@Named
 public class AccountDaoImpl implements IAccountDao {
 
 

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="arquillian.AccountServiceTest" time="1.352" tests="7" errors="0" skipped="0" failures="0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="0" name="arquillian.AccountServiceTest" time="0.681" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"/>
@@ -22,7 +22,8 @@
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.io.tmpdir" value="/var/folders/pr/sqq8v2sn5gqd7jgqzgmkxjb80000gn/T/"/>
-    <property name="line.separator" value="&#10;"/>
+    <property name="line.separator" value="
+"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
@@ -31,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.13.2"/>
+    <property name="os.version" value="10.13.3"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/juleskreutzer"/>
     <property name="user.timezone" value="Europe/Amsterdam"/>
@@ -43,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P staging"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="nl"/>
     <property name="user.language.format" value="en"/>
@@ -62,11 +63,11 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="findByFullName" classname="arquillian.AccountServiceTest" time="0.118"/>
-  <testcase name="findById" classname="arquillian.AccountServiceTest" time="0.237"/>
-  <testcase name="createDuplicateAccount" classname="arquillian.AccountServiceTest" time="0.029"/>
-  <testcase name="createAccount" classname="arquillian.AccountServiceTest" time="0.01"/>
-  <testcase name="findByEmail" classname="arquillian.AccountServiceTest" time="0.015"/>
-  <testcase name="updateAccount" classname="arquillian.AccountServiceTest" time="0.01"/>
-  <testcase name="getAllAccounts" classname="arquillian.AccountServiceTest" time="0.011"/>
+  <testcase classname="arquillian.AccountServiceTest" name="findByFullName" time="0.582"/>
+  <testcase classname="arquillian.AccountServiceTest" name="findById" time="0.014"/>
+  <testcase classname="arquillian.AccountServiceTest" name="createDuplicateAccount" time="0.021"/>
+  <testcase classname="arquillian.AccountServiceTest" name="createAccount" time="0.016"/>
+  <testcase classname="arquillian.AccountServiceTest" name="findByEmail" time="0.024"/>
+  <testcase classname="arquillian.AccountServiceTest" name="updateAccount" time="0.013"/>
+  <testcase classname="arquillian.AccountServiceTest" name="getAllAccounts" time="0.011"/>
 </testsuite>

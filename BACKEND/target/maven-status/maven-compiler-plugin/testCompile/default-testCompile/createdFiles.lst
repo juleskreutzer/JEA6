@@ -1,0 +1,10 @@
+arquillian/AccountApiTestWithouthRestAssured.class
+restassured/AccountApiTest.class
+arquillian/KwetApiTestWithoutRestAssured.class
+unit/domain/AccountTest.class
+arquillian/KwetServiceTest.class
+arquillian/AccountDaoImplTest.class
+unit/domain/KwetTest.class
+restassured/KwetApiTest.class
+arquillian/AccountServiceTest.class
+unit/domain/AccountRegistrationTest.class

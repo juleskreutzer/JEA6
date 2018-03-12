@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="arquillian.KwetApiTestWithoutRestAssured" time="0.957" tests="7" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="arquillian.KwetApiTestWithoutRestAssured" time="0.829" tests="7" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"/>
@@ -31,7 +31,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.13.2"/>
+    <property name="os.version" value="10.13.3"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/juleskreutzer"/>
     <property name="user.timezone" value="Europe/Amsterdam"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P staging"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="nl"/>
     <property name="user.language.format" value="en"/>
@@ -66,24 +66,24 @@
     <skipped/>
     <system-out><![CDATA[PlainTextActionReporterSUCCESSNo monitoring data to report.
 ]]></system-out>
-    <system-err><![CDATA[Mar 09, 2018 4:34:55 PM com.sun.ejb.containers.BaseContainer initializeHome
-INFO: EJB5181:Portable JNDI names for EJB AccountApi: [java:global/test/AccountApi, java:global/test/AccountApi!rest.AccountApi]
-Mar 09, 2018 4:34:55 PM com.sun.ejb.containers.BaseContainer initializeHome
+    <system-err><![CDATA[Mar 12, 2018 12:09:41 PM com.sun.ejb.containers.BaseContainer initializeHome
 INFO: EJB5181:Portable JNDI names for EJB KwetService: [java:global/test/KwetService!service.KwetService, java:global/test/KwetService]
-Mar 09, 2018 4:34:55 PM com.sun.ejb.containers.BaseContainer initializeHome
-INFO: EJB5181:Portable JNDI names for EJB AccountService: [java:global/test/AccountService, java:global/test/AccountService!service.AccountService]
-Mar 09, 2018 4:34:55 PM com.sun.ejb.containers.BaseContainer initializeHome
+Mar 12, 2018 12:09:41 PM com.sun.ejb.containers.BaseContainer initializeHome
 INFO: EJB5181:Portable JNDI names for EJB KwetApi: [java:global/test/KwetApi, java:global/test/KwetApi!rest.KwetApi]
-Mar 09, 2018 4:34:56 PM com.sun.enterprise.web.WebApplication start
+Mar 12, 2018 12:09:41 PM com.sun.ejb.containers.BaseContainer initializeHome
+INFO: EJB5181:Portable JNDI names for EJB AccountApi: [java:global/test/AccountApi, java:global/test/AccountApi!rest.AccountApi]
+Mar 12, 2018 12:09:41 PM com.sun.ejb.containers.BaseContainer initializeHome
+INFO: EJB5181:Portable JNDI names for EJB AccountService: [java:global/test/AccountService, java:global/test/AccountService!service.AccountService]
+Mar 12, 2018 12:09:41 PM com.sun.enterprise.web.WebApplication start
 INFO: WEB0671: Loading application [test] at [/test]
-Mar 09, 2018 4:34:56 PM org.glassfish.deployment.admin.DeployCommand execute
-INFO: test was successfully deployed in 413 milliseconds.
+Mar 12, 2018 12:09:41 PM org.glassfish.deployment.admin.DeployCommand execute
+INFO: test was successfully deployed in 401 milliseconds.
 ]]></system-err>
   </testcase>
-  <testcase name="getAllKwets" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.085"/>
+  <testcase name="getAllKwets" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.058"/>
   <testcase name="updateKwet" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.009"/>
-  <testcase name="getAllKwetsFromOwnerByText" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.013"/>
-  <testcase name="getById" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.012"/>
+  <testcase name="getAllKwetsFromOwnerByText" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.012"/>
+  <testcase name="getById" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.014"/>
   <testcase name="getByText" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.012"/>
-  <testcase name="createKwet" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.011"/>
+  <testcase name="createKwet" classname="arquillian.KwetApiTestWithoutRestAssured" time="0.01"/>
 </testsuite>

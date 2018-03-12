@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: unit.domain.AccountRegistrationTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in unit.domain.AccountRegistrationTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec - in unit.domain.AccountRegistrationTest
