@@ -1,9 +1,11 @@
 package dao;
 
 import domain.Account;
+import domain.Group;
 import exceptions.AccountNotFoundException;
 import exceptions.EmailAllreadyRegisteredException;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+import util.ROLE;
 import util.ResponseMessage;
 
 import javax.enterprise.context.ApplicationScoped;
@@ -12,6 +14,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -39,6 +42,11 @@ public class AccountDaoImpl implements IAccountDao {
 
     public void createAccount(Account u) throws EmailAllreadyRegisteredException {
         if(this.findAccountByEmail(u.getEmail()) == null) {
+            Group group = new Group();
+            group.setGroupName(ROLE.USER);
+            ArrayList<Group> groups = new ArrayList<>();
+            groups.add(group);
+            u.setGroups(groups);
             em.persist(u);
         } else {
             throw new EmailAllreadyRegisteredException(ResponseMessage.EMAIL_ALLREADY_REGISTERED);

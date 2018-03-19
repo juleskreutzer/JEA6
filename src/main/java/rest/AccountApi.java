@@ -30,7 +30,7 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
  */
 
 @Stateless
-@DeclareRoles({"admin_role", "user_role"})
+@DeclareRoles({"admin_role", "mod_role", "user_role"})
 @Path("/accounts")
 public class AccountApi {
 
@@ -39,7 +39,7 @@ public class AccountApi {
 
     @GET
     @Produces(APPLICATION_JSON)
-    @RolesAllowed({"admin_role"})
+    @RolesAllowed({"admin_role", "mod_rule"})
     @Path("/all")
     public Collection<Account> getAllAccounts() {
         Collection<Account> result = service.getAllAccounts();
