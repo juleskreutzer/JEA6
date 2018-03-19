@@ -12,6 +12,7 @@
 /Volumes/Nifty_SD/Git/JEA6/src/main/java/exceptions/AccountNotFoundException.java
 /Volumes/Nifty_SD/Git/JEA6/src/main/java/dao/AccountDaoImpl.java
 /Volumes/Nifty_SD/Git/JEA6/src/main/java/rest/AccountApi.java
+/Volumes/Nifty_SD/Git/JEA6/src/main/java/util/CORSFilter.java
 /Volumes/Nifty_SD/Git/JEA6/src/main/java/service/AccountService.java
 /Volumes/Nifty_SD/Git/JEA6/src/main/java/dao/IKwetDoa.java
 /Volumes/Nifty_SD/Git/JEA6/src/main/java/rest/JaxRsApplication.java

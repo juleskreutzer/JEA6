@@ -7,33 +7,219 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05cd1d1f-3989-48a8-af03-debf6f966178" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/JEA6_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_18.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_core_1_5_18.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_jaxrs_1_5_18.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_jersey2_jaxrs_1_5_18.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_18.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_5_0_b32.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_5_0_b32.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_5_0_b32.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_5_0_b32.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_5_0_b32.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_25_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_25_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_25_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_25_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_25_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_25_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_multipart_2_25_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_18.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WEB-INF/glassfish-web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/CORSFilter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/Kwetter-1.0/WEB-INF/web.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/JEA6_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/JEA6_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ef64cad-a078-44e6-ba1f-b326706a7b3c.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/1ef64cad-a078-44e6-ba1f-b326706a7b3c.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ef64cad-a078-44e6-ba1f-b326706a7b3c/storage_v2/_src_/database/Kwetter.Bs9JUA/schema/public.abK9xQ.meta" afterPath="$PROJECT_DIR$/.idea/dataSources/1ef64cad-a078-44e6-ba1f-b326706a7b3c/storage_v2/_src_/database/Kwetter.Bs9JUA/schema/public.abK9xQ.meta" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/.name" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/artifacts/Kwetter.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/compiler.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/dictionaries/juleskreutzer.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/encodings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__io_rest_assured_json_path_3_0_7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__io_rest_assured_rest_assured_3_0_7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_0_7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__io_rest_assured_xml_path_3_0_7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__javax_javaee_web_api_8_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_4_12.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_easytesting_fest_assert_1_4.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_easytesting_fest_util_1_1_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_glassfish_main_extras_glassfish_embedded_all_3_1_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_api_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_impl_base_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_impl_base_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_spi_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_api_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_impl_base_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_spi_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_glassfish_embedded_3_1_1_0_0_CR3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_api_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_impl_base_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_spi_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_container_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_core_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_protocol_arquillian_protocol_servlet_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_api_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_impl_base_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_spi_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_cdi_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_ejb_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_initialcontext_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_resource_1_1_4_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_api_base_2_0_0_alpha_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_spi_2_0_0_alpha_5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_api_1_2_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_impl_base_1_2_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_spi_1_2_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/libraries/Maven__org_postgresql_postgresql_42_2_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/JEA6.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/Kwetter.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/createDDL.jdbc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/dropDDL.jdbc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/out/artifacts/JEA6_war_exploded/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/Kwetter-1.0/META-INF/MANIFEST.MF" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/out/artifacts/JEA6_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/out/artifacts/JEA6_war_exploded/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/dao/AccountDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/dao/IAccountDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/dao/IKwetDoa.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/dao/KwetDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/domain/Account.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/domain/AccountRegistration.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/domain/Kwet.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/exceptions/AccountNotFoundException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/exceptions/EmailAllreadyRegisteredException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/exceptions/KwetNotFoundException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/rest/AccountApi.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/rest/JaxRsApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/rest/KwetApi.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/service/AccountService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/service/KwetService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/util/ROLE.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Group.java" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/java/util/ResponseMessage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/main/resources/META-INF/persistence.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/java/arquillian/AccountApiTestWithouthRestAssured.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/java/arquillian/AccountDaoImplTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/java/arquillian/AccountServiceTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/java/arquillian/KwetApiTestWithoutRestAssured.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/java/arquillian/KwetServiceTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/java/restassured/AccountApiTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/java/restassured/KwetApiTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/java/unit/domain/AccountRegistrationTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/java/unit/domain/AccountTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/java/unit/domain/KwetTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/test-resources/arquillian.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/test-resources/glassfish-resources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/src/test/test-resources/persistence.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/classes/META-INF/persistence.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/generated-sources/annotations/domain/Account_.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/generated-sources/annotations/domain/Kwet_.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/TEST-arquillian.AccountApiTestWithouthRestAssured.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/TEST-arquillian.AccountDaoImplTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/TEST-arquillian.AccountServiceTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/TEST-arquillian.KwetApiTestWithoutRestAssured.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/TEST-arquillian.KwetServiceTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/TEST-unit.domain.AccountRegistrationTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/TEST-unit.domain.AccountTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/TEST-unit.domain.KwetTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/arquillian.AccountApiTestWithouthRestAssured.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/arquillian.AccountDaoImplTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/arquillian.AccountServiceTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/arquillian.KwetApiTestWithoutRestAssured.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/arquillian.KwetServiceTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/unit.domain.AccountRegistrationTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/unit.domain.AccountTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/target/surefire-reports/unit.domain.KwetTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/web/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/.bowerrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/FRONTEND.iml" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter Frontend.iml" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/app.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/components/version/interpolate-filter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/components/version/interpolate-filter_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/components/version/version-directive.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/components/version/version-directive_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/components/version/version.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/components/version/version_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/index-async.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/view1/view1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/view1/view1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/view1/view1_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/view2/view2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/view2/view2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/app/view2/view2_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/e2e-tests/protractor.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/e2e-tests/scenarios.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/karma.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/package.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/JEA6.iml" afterPath="$PROJECT_DIR$/JEA6.iml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JEA6_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/out/artifacts/JEA6_war_exploded/WEB-INF/classes/META-INF/persistence.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JEA6_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JEA6_war_exploded/index.jsp" afterPath="" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountApiTestWithouthRestAssured.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountApiTestWithouthRestAssured.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountDaoImplTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountDaoImplTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountServiceTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountServiceTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.KwetApiTestWithoutRestAssured.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.KwetApiTestWithoutRestAssured.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.KwetServiceTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.KwetServiceTest.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Account.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Account.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" afterPath="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java" afterPath="$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ROLE.java" afterPath="$PROJECT_DIR$/src/main/java/util/ROLE.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/domain/AccountTest.java" afterPath="$PROJECT_DIR$/src/test/java/unit/domain/AccountTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.AccountRegistrationTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.AccountRegistrationTest.xml" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.AccountTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.AccountTest.xml" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.KwetTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.KwetTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountApiTestWithouthRestAssured.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountApiTestWithouthRestAssured.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountDaoImplTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountDaoImplTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountServiceTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountServiceTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.KwetApiTestWithoutRestAssured.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/arquillian.KwetApiTestWithoutRestAssured.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.KwetServiceTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/arquillian.KwetServiceTest.txt" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.domain.AccountRegistrationTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/unit.domain.AccountRegistrationTest.txt" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.domain.AccountTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/unit.domain.AccountTest.txt" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.domain.KwetTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/unit.domain.KwetTest.txt" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/arquillian.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/glassfish-resources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/persistence.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -111,82 +297,20 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="KwetterTest@85.144.215.28" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="KwetterTest@85.144.215.28" type="feb32156:DbDataSourceImpl" />
+        <item name="Kwetter@85.144.215.28" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="KwetterTest@85.144.215.28" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="KwetterTest: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="KwetterTest@85.144.215.28" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="KwetterTest: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="KwetterTest@85.144.215.28" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="KwetterTest: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="Kwetter: database" type="6d9b600a:PostgresImplModel$Database" />
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="KwetterTest@85.144.215.28" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="KwetterTest: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="account: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+        <item name="user_group: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AccountDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/AccountService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDaoImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/AccountDaoImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResponseMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/ResponseMessage.java">
+      <file leaf-file-name="AccountRegistration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/AccountRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
@@ -195,41 +319,99 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rest/AccountApi.java">
+      <file leaf-file-name="JaxRsApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="331">
+              <caret line="28" column="35" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="28" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="-636">
+              <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+              <folding>
+                <element signature="e#4703#4704#0" expanded="true" />
+                <element signature="e#4732#4733#0" expanded="true" />
+                <element signature="e#4781#4782#0" expanded="true" />
+                <element signature="e#4817#4818#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ROLE.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/ROLE.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KwetServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/KwetServiceTest.java">
+      <file leaf-file-name="Group.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Group.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="99">
+              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1047#1048#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1124#1125#0" expanded="true" />
+                <element signature="e#1158#1159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unit/domain/AccountTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="332" column="31" lean-forward="false" selection-start-line="332" selection-start-column="31" selection-end-line="332" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/test-resources/persistence.xml">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="glassfish-web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-INF/glassfish-web.xml">
+          <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountApi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rest/AccountApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1401">
+              <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -242,9 +424,9 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -280,17 +462,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/rest/UserApi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Enums/ROLE.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ef64cad-a078-44e6-ba1f-b326706a7b3c/console_1.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/IAccountDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/KwetterService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/ROLE.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/AccountRegistration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/IKwetDoa.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/domain/AccountTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/domain/AccountRegistrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/domain/KwetTest.java" />
@@ -313,9 +485,7 @@
         <option value="$PROJECT_DIR$/src/test/test-resources/META-INF/persistence.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/67438a40-d30d-4d78-92fd-9b98f4910f23/console.sql" />
         <option value="$PROJECT_DIR$/src/test/java/dao/AccountDaoImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Account.java" />
         <option value="$PROJECT_DIR$/src/test/java/unit/domain/AccountRegistrationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/unit/domain/AccountTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/unit/domain/KwetTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/AccountApiTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/KwetApiTest.java" />
@@ -329,8 +499,20 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/test/java/arquillian/AccountDaoImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CORSFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/Bootstrap.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Frontend/Kwetter-Frontend/src/environments/environment.prod.ts" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/test/java/unit/domain/AccountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Account.java" />
+        <option value="$PROJECT_DIR$/WEB-INF/sun-web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/util/ROLE.java" />
+        <option value="$PROJECT_DIR$/WEB-INF/glassfish-web.xml" />
+        <option value="$PROJECT_DIR$/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Group.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" />
       </list>
     </option>
   </component>
@@ -370,7 +552,7 @@
     </treeState>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/FRONTEND/node_modules" />
+    <handled-path value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/node_modules" />
   </component>
   <component name="PhpServers">
     <servers />
@@ -427,7 +609,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -438,17 +619,6 @@
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
               <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -470,15 +640,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
@@ -494,52 +656,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
               <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="arquillian" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test-resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -547,6 +669,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -555,7 +678,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;MySQL" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="JPA.DatabaseSchemaImportDialog" value="1ef64cad-a078-44e6-ba1f-b326706a7b3c" />
@@ -565,6 +688,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/dao" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -713,7 +837,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Glassfish Managed: KwetApiTestWithoutRestAssured" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+    <configuration name="Glassfish Managed: KwetApiTestWithoutRestAssured" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="arquillian.*" />
@@ -905,21 +1029,31 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="GlassFish Server.Glassfish 5.0.0 Local" />
-      <item index="1" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: KwetApiTestWithoutRestAssured" />
-      <item index="2" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountApiTestWithouthRestAssured" />
-      <item index="3" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountApiTestWithouthRestAssured.findAccountByEmail" />
-      <item index="4" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountDaoImplTest" />
-      <item index="5" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: KwetServiceTest" />
+    <configuration name="Kwetter Frontend" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ng" />
+      </scripts>
+      <arguments value="serve --port 8081" />
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: KwetApiTestWithoutRestAssured" />
+      <item index="1" class="java.lang.String" itemvalue="GlassFish Server.Glassfish 5.0.0 Local" />
+      <item index="2" class="java.lang.String" itemvalue="npm.Kwetter Frontend" />
+      <item index="3" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountApiTestWithouthRestAssured" />
+      <item index="4" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountApiTestWithouthRestAssured.findAccountByEmail" />
+      <item index="5" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountDaoImplTest" />
+      <item index="6" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: KwetServiceTest" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: KwetServiceTest" />
         <item index="1" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountApiTestWithouthRestAssured" />
         <item index="2" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountDaoImplTest" />
         <item index="3" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: AccountApiTestWithouthRestAssured.findAccountByEmail" />
-        <item index="4" class="java.lang.String" itemvalue="Arquillian JUnit.Glassfish Managed: KwetApiTestWithoutRestAssured" />
       </list>
     </recent_temporary>
   </component>
@@ -959,7 +1093,10 @@
       <workItem from="1520499703286" duration="12100000" />
       <workItem from="1520630394868" duration="324000" />
       <workItem from="1520845256320" duration="1759000" />
-      <workItem from="1520852931647" duration="568000" />
+      <workItem from="1520852931647" duration="830000" />
+      <workItem from="1520880354205" duration="4148000" />
+      <workItem from="1520924062836" duration="3259000" />
+      <workItem from="1521442346479" duration="9220000" />
     </task>
     <servers />
   </component>
@@ -996,10 +1133,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100415000" />
+    <option name="totallyTimeSpent" value="117304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29785055" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
@@ -1008,23 +1146,26 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29785055" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29785055" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24481075" sideWeight="0.5233236" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24481075" sideWeight="0.48244274" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24481075" sideWeight="0.48244274" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24481075" sideWeight="0.51755726" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1034,7 +1175,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="JPA Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.497558" order="8" side_tool="false" content_ui="tabs" />
@@ -1098,152 +1238,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/8.0/javaee-web-api-8.0.jar!/javax/ws/rs/WebApplicationException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/IKwetDoa.java" />
-    <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-core/1.5.18/swagger-core-1.5.18.jar!/io/swagger/config/Scanner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-annotations/2.0.0-rc4/swagger-annotations-2.0.0-rc4.jar!/io/swagger/v3/oas/annotations/OpenAPIDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-annotations/2.0.0-rc4/swagger-annotations-2.0.0-rc4.jar!/io/swagger/v3/oas/annotations/Operation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/AccountRegistration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/HelloWorld.java" />
-    <entry file="file://$PROJECT_DIR$/out/artifacts/JEA6_war_exploded/WEB-INF/classes/dao/AccountDaoImpl.class" />
-    <entry file="file://$PROJECT_DIR$/out/artifacts/JEA6_war_exploded/WEB-INF/classes/META-INF/persistence.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/EmailAllreadyRegisteredException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/IAccountDao.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar!/org/mockito/internal/invocation/RealMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar!/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="626" lean-forward="false" selection-start-line="33" selection-start-column="626" selection-end-line="33" selection-end-column="626" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/AccountNotFoundException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/KwetNotFoundException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/ROLE.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar!/org/mockito/Mockito.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/KwetDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/KwetService.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/8.0/javaee-web-api-8.0.jar!/javax/ws/rs/core/Response.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Kwet.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="3663" column="0" lean-forward="false" selection-start-line="3663" selection-start-column="0" selection-end-line="3663" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createDDL.jdbc" />
-    <entry file="file://$PROJECT_DIR$/dropDDL.jdbc" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/67438a40-d30d-4d78-92fd-9b98f4910f23/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/unit/domain/AccountRegistrationTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/unit/domain/AccountTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/unit/domain/KwetTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/AccountApiTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/KwetApiTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/KwetApi.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/AccountServiceTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/KwetApiTestWithoutRestAssured.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-core/1.4.0.Final/arquillian-junit-core-1.4.0.Final.jar!/org/jboss/arquillian/junit/JUnitClassRulesFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/AccountApiTestWithouthRestAssured.java" />
     <entry file="file://$PROJECT_DIR$/src/test/test-resources/glassfish-resources.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/test-resources/arquillian.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/8.0/javaee-web-api-8.0.jar!/javax/enterprise/context/Dependent.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/KwetServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test-resources/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,26 +1256,387 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/AccountDaoImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/KwetServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-core/2.0.0-rc1/swagger-core-2.0.0-rc1.jar!/io/swagger/model/ApiDescription.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-core/2.0.0-rc1/swagger-core-2.0.0-rc1.jar!/io/swagger/util/Yaml.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-core/2.0.0-rc1/swagger-core-2.0.0-rc1.jar!/io/swagger/oas/models/OpenAPI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-integration/2.0.0-rc1/swagger-integration-2.0.0-rc1.jar!/io/swagger/oas/integration/api/OpenAPIConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-integration/2.0.0-rc1/swagger-integration-2.0.0-rc1.jar!/io/swagger/oas/integration/SwaggerConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="83" lean-forward="false" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/Bootstrap.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/test-resources/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/AccountApi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/arquillian/AccountDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="60" column="43" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="60" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/CORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="578">
+          <caret line="130" column="27" lean-forward="false" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Kwetter-Frontend/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Kwetter-Frontend/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Kwetter-Frontend/src/assets/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Kwetter-Frontend/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Kwetter-Frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Kwetter-Frontend/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Kwetter-Frontend/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Kwetter-Frontend/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Kwetter-Frontend/src/test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Kwetter-Frontend/src/polyfills.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Kwetter-Frontend/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Kwetter-Frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#55#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/AccountRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unit/domain/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="332" column="31" lean-forward="false" selection-start-line="332" selection-start-column="31" selection-end-line="332" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="28" column="35" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="28" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-636">
+          <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+          <folding>
+            <element signature="e#4703#4704#0" expanded="true" />
+            <element signature="e#4732#4733#0" expanded="true" />
+            <element signature="e#4781#4782#0" expanded="true" />
+            <element signature="e#4817#4818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-INF/sun-web.xml">
+      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/ROLE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-INF/glassfish-web.xml">
+      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/AccountApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1401">
+          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
           <folding />
         </state>
       </provider>

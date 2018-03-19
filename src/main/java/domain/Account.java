@@ -64,7 +64,10 @@ public class Account implements Serializable {
 
     private String profileImage;
 
-    private ROLE role = ROLE.USER;
+//    private ROLE role = ROLE.USER;
+
+    @ManyToMany(mappedBy = "users")
+    private List<Group> groups;
 
     public Account() { }
 
@@ -179,11 +182,12 @@ public class Account implements Serializable {
         this.profileImage = profileImage;
     }
 
-    public ROLE getRole() {
-        return role;
+    public List<Group> getGroups() {
+        return groups;
     }
 
-    public void setRole(ROLE role) {
-        this.role = role;
+    public void setGroups(List<Group> groups) {
+        this.groups = groups;
     }
 }
+

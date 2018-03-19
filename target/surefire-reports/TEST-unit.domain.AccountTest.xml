@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="unit.domain.AccountTest" time="0.009" tests="27" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="unit.domain.AccountTest" time="0.001" tests="27" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"/>
@@ -81,12 +81,12 @@
   <testcase name="getId" classname="unit.domain.AccountTest" time="0"/>
   <testcase name="setId" classname="unit.domain.AccountTest" time="0"/>
   <testcase name="addFollowing" classname="unit.domain.AccountTest" time="0"/>
-  <testcase name="getFollowers" classname="unit.domain.AccountTest" time="0.001"/>
+  <testcase name="getFollowers" classname="unit.domain.AccountTest" time="0"/>
   <testcase name="getFollowing" classname="unit.domain.AccountTest" time="0"/>
   <testcase name="setEmail" classname="unit.domain.AccountTest" time="0"/>
-  <testcase name="updateAccount" classname="unit.domain.AccountTest" time="0.001"/>
+  <testcase name="updateAccount" classname="unit.domain.AccountTest" time="0"/>
   <testcase name="setUsername" classname="unit.domain.AccountTest" time="0"/>
   <testcase name="getUsername" classname="unit.domain.AccountTest" time="0"/>
   <testcase name="getEmail" classname="unit.domain.AccountTest" time="0"/>
-  <testcase name="setRole" classname="unit.domain.AccountTest" time="0.001"/>
+  <testcase name="setRole" classname="unit.domain.AccountTest" time="0"/>
 </testsuite>

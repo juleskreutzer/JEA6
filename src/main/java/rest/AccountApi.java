@@ -6,6 +6,8 @@ import exceptions.EmailAllreadyRegisteredException;
 import service.AccountService;
 import util.ResponseMessage;
 
+import javax.annotation.security.DeclareRoles;
+import javax.annotation.security.RolesAllowed;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.ws.rs.*;
@@ -28,8 +30,8 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
  */
 
 @Stateless
+@DeclareRoles({"admin_role", "user_role"})
 @Path("/accounts")
-
 public class AccountApi {
 
     @Inject
@@ -37,6 +39,7 @@ public class AccountApi {
 
     @GET
     @Produces(APPLICATION_JSON)
+    @RolesAllowed({"admin_role"})
     @Path("/all")
     public Collection<Account> getAllAccounts() {
         Collection<Account> result = service.getAllAccounts();

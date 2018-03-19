@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-war" name="Kwetter">
-    <output-path>$PROJECT_DIR$/classes/artifacts/Kwetter</output-path>
-    <root id="root" />
-  </artifact>
-</component>

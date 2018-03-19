@@ -14,5 +14,5 @@ public enum ROLE {
 
     USER,
     MODERATOR,
-    ADMINSITRATOR
+    ADMINISTRATOR
 }
