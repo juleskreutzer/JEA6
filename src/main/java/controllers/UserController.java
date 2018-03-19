@@ -1,8 +1,10 @@
 package controllers;
 
+import domain.Account;
 import service.AccountService;
 
 import javax.enterprise.context.RequestScoped;
+import javax.faces.event.ValueChangeEvent;
 import javax.inject.Inject;
 import javax.inject.Named;
 import java.io.Serializable;
@@ -26,6 +28,11 @@ public class UserController implements Serializable {
     private AccountService accountService;
 
     private int userCount;
+    private Account lastCreatedAccount;
+    private Account searchResult;
+
+    private String searchFilter;
+    private String searchFilterChanged;
 
     private String pageTitle = "Kwetter Admin - Users";
 
@@ -43,5 +50,47 @@ public class UserController implements Serializable {
 
     public void setPageTitle(String pageTitle) {
         this.pageTitle = pageTitle;
+    }
+
+    public Account getLastCreatedAccount() {
+        this.getUserCount();
+        return accountService.findById(this.userCount -1);
+    }
+
+    public void setLastCreatedAccount(Account lastCreatedAccount) {
+    }
+
+    public String getSearchFilter() {
+        return searchFilter;
+    }
+
+    public void setSearchFilter(String searchFilter) {
+        this.searchFilter = searchFilter;
+    }
+
+    public Account getSearchResult() {
+        return searchResult;
+    }
+
+    public void setSearchResult(Account searchResult) {
+        this.searchResult = searchResult;
+    }
+
+    public String getSearchFilterChanged() {
+        return searchFilterChanged;
+    }
+
+    public void setSearchFilterChanged(String searchFilterChanged) {
+        this.searchFilterChanged = searchFilterChanged;
+    }
+
+    public Account searchByFullname(String partOfFullname) {
+        this.searchResult = accountService.findByFullName(partOfFullname);
+
+        return this.searchResult;
+    }
+
+    public void searchFilterChanged(ValueChangeEvent vce) {
+        this.searchByFullname((String) vce.getNewValue());
     }
 }
