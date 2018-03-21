@@ -63,6 +63,24 @@
                 <!--/.Card-->
 
             </div>
+            <div class="col-lg-4">
+                <div class="card mb-r">
+
+                    <!--Card image-->
+
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title dark-grey-text"><strong>Logout</strong></h4>
+                        <!--Text-->
+                        <p class="card-text">Go. Just go.</p>
+                        <h:form>
+                            <h:commandButton action="#{LoginController.logout}" type="submit" class="btn btn-warning btn-md" value="Logout if you dare"></h:commandButton>
+                        </h:form>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </h:body>
 </html>

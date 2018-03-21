@@ -12,6 +12,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.security.Principal;
 import java.util.Map;
 
@@ -86,7 +87,7 @@ public class LoginController {
             request.login(username, password);
         } catch (ServletException e) {
             context.addMessage(null, new FacesMessage(FacesMessage.SEVERITY_ERROR, "Login failed!", null));
-            return "/admin/auth/login.xhtml";
+            return "login_page";
         }
         Principal principal = request.getUserPrincipal();
         this.account = accountDao.findAccountByUsername(principal.getName());
@@ -95,10 +96,24 @@ public class LoginController {
         Map<String, Object> sessionMap = externalContext.getSessionMap();
         sessionMap.put("User", account);
         if (request.isUserInRole("admin_role")) {
-            return "/admin";
+            return "index_page";
         } else {
-            return "/auth/login.xhtml";
+            return "login_page";
         }
 
+    }
+
+    public String logout() {
+        FacesContext context = FacesContext.getCurrentInstance();
+        HttpServletRequest request = (HttpServletRequest) context.getExternalContext().getRequest();
+        try {
+            this.account = null;
+            request.logout();
+            // clear the session
+            ((HttpSession) context.getExternalContext().getSession(false)).invalidate();
+        } catch (ServletException e) {
+            System.out.println("Logout failed for user " + this.username);
+        }
+        return "/auth/login.xhtml";
     }
 }
