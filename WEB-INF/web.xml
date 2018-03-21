@@ -19,7 +19,7 @@
             <url-pattern>/api/accounts/*</url-pattern>
         </web-resource-collection>
         <!--<auth-constraint>-->
-            <!--<role-name>user_role</role-name>-->
+        <!--<role-name>user_role</role-name>-->
         <!--</auth-constraint>-->
     </security-constraint>
 
