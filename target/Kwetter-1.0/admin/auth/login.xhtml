@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+    <title>${LoginController.title}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+</h:head>
+<h:body>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md">
+                <h:form>
+                    <div class="form-header">
+                        <h6>#{LoginController.title}</h6>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtUsername">Username</label>
+                        <h:inputText type="text" class="form-control" id="txtUsername" value="#{LoginController.username}" required="true" />
+
+                    </div>
+                    <div class="form-group">
+                        <label for="txtPassword">Password</label>
+                        <h:inputText type="password" class="form-control" id="txtPassword" value="#{LoginController.password}" required="true"/>
+                    </div>
+                    <h:commandButton type="submit" class="btn btn-primary" value="Inloggen" action="#{LoginController.login}"></h:commandButton>
+                </h:form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" />
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" />
+
+</h:body>
+</html>

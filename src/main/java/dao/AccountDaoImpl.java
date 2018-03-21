@@ -102,6 +102,17 @@ public class AccountDaoImpl implements IAccountDao {
         }
     }
 
+    public Account findAccountByUsername(String username) {
+        Query q = em.createNamedQuery("Account.getAccountByUsername");
+        q.setParameter("username", username);
+
+        try {
+            return (Account) q.getSingleResult();
+        } catch(NoResultException nre) {
+            return null;
+        }
+    }
+
     public List<Account> getAllFollowing(Account u) {
         Account account = this.findAccountByEmail(u.getEmail());
         return account.getFollowing();
