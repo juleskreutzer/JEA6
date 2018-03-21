@@ -72,4 +72,10 @@ public class AccountService {
 
         if(userDoesExist) accountDao.editAccount(account);
     }
+
+    public void deleteAccount(long id) {
+        Account account = this.findById(id);
+
+        accountDao.removeAccount(account);
+    }
 }

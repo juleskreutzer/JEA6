@@ -46,6 +46,8 @@ public class UserController implements Serializable {
     private String searchFilter;
     private String searchFilterChanged;
 
+    private long idOfUserToBeRemoved;
+
     private String pageTitle = "Kwetter Admin - Users";
 
     public int getUserCount() {
@@ -184,6 +186,14 @@ public class UserController implements Serializable {
         this.website = website;
     }
 
+    public long getIdOfUserToBeRemoved() {
+        return idOfUserToBeRemoved;
+    }
+
+    public void setIdOfUserToBeRemoved(long idOfUserToBeRemoved) {
+        this.idOfUserToBeRemoved = idOfUserToBeRemoved;
+    }
+
     public void createUser() throws EmailAllreadyRegisteredException {
         Account account = new Account(this.email, this.password);
         account.setUsername(this.username);
@@ -193,5 +203,9 @@ public class UserController implements Serializable {
         account.setWeb(this.website);
 
         accountService.createAccount(account);
+    }
+
+    public void deleteUser(long id) {
+        accountService.deleteAccount(id);
     }
 }
