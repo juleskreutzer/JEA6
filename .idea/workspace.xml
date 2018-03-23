@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05cd1d1f-3989-48a8-af03-debf6f966178" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/package-lock.json" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/package.json" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/package.json" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.html" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.html" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.ts" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.ts" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.module.ts" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/index.html" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/index.html" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/main.ts" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/main.ts" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/styles.css" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/styles.css" />
-    </list>
+    <list default="true" id="05cd1d1f-3989-48a8-af03-debf6f966178" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -877,7 +867,7 @@
       <workItem from="1521528598169" duration="4731000" />
       <workItem from="1521620323895" duration="12642000" />
       <workItem from="1521703888740" duration="2477000" />
-      <workItem from="1521716247214" duration="4010000" />
+      <workItem from="1521716247214" duration="4344000" />
     </task>
     <servers />
   </component>
@@ -914,7 +904,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148940000" />
+    <option name="totallyTimeSpent" value="149274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
