@@ -7,77 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05cd1d1f-3989-48a8-af03-debf6f966178" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/GroupDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/JWT/JWTRequired.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JEA6_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JEA6_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JEA6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JEA6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/register/register.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/register/register.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/CORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/CORSFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter-1.0/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Kwetter-1.0/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter-1.0/admin/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter-1.0/admin/auth/error.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter-1.0/admin/auth/login.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter-1.0/admin/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter-1.0/admin/img/kwet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter-1.0/admin/img/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter-1.0/admin/index.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter-1.0/admin/kwets.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Kwetter-1.0/admin/users.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/domain/Account_.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/domain/Kwet_.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountApiTestWithouthRestAssured.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountDaoImplTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.AccountServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.KwetApiTestWithoutRestAssured.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-arquillian.KwetServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restassured.AccountApiTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restassured.KwetApiTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.AccountRegistrationTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.AccountTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.domain.KwetTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountApiTestWithouthRestAssured.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountDaoImplTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.AccountServiceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.KwetApiTestWithoutRestAssured.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/arquillian.KwetServiceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restassured.AccountApiTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restassured.KwetApiTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.domain.AccountRegistrationTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.domain.AccountTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.domain.KwetTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/users.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/users.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -211,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JWTAuthFilter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JWTAuthFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="422">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -235,8 +166,8 @@
       <file leaf-file-name="AccountApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rest/AccountApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
+            <state relative-caret-position="361">
+              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -250,11 +181,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountDaoImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AccountDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="169" column="25" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
+            <state relative-caret-position="1935">
+              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
             </state>
           </provider>
         </entry>
@@ -367,11 +298,11 @@
         <option value="$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/JWTAuthFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/JWTRequired.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java" />
       </list>
     </option>
   </component>
@@ -966,7 +897,7 @@
       <workItem from="1522222320551" duration="5517000" />
       <workItem from="1522252554901" duration="1542000" />
       <workItem from="1522317538239" duration="10201000" />
-      <workItem from="1522421061966" duration="1982000" />
+      <workItem from="1522421061966" duration="2625000" />
     </task>
     <servers />
   </component>
@@ -1003,7 +934,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172412000" />
+    <option name="totallyTimeSpent" value="173055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1030,10 +961,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32958034" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32958034" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497558" visible="true" weight="0.30358973" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497558" visible="true" weight="0.30358973" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.36307693" />
       <window_info id="Persistence" order="3" sideWeight="0.5264706" side_tool="true" weight="0.25396827" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4735294" visible="true" weight="0.26312578" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4735294" visible="true" weight="0.26312578" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32967034" />
       <window_info id="Web" order="2" sideWeight="0.51755726" side_tool="true" weight="0.24481075" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1371,13 +1302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/AccountApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1392,16 +1316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -1411,8 +1325,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="169" column="25" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
+        <state relative-caret-position="1935">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/AccountApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

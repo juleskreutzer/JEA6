@@ -4,6 +4,7 @@ import domain.Account;
 import domain.AccountRegistration;
 import exceptions.EmailAllreadyRegisteredException;
 import service.AccountService;
+import util.JWT.JWTRequired;
 import util.ResponseMessage;
 
 import javax.annotation.security.DeclareRoles;
@@ -39,7 +40,7 @@ public class AccountApi {
 
     @GET
     @Produces(APPLICATION_JSON)
-    @RolesAllowed({"admin_role", "mod_rule"})
+    @RolesAllowed({"admin_role", "mod_role"})
     @Path("/all")
     public Collection<Account> getAllAccounts() {
         Collection<Account> result = service.getAllAccounts();
@@ -53,6 +54,7 @@ public class AccountApi {
 
     @GET
     @Path("/email/{email}")
+    @JWTRequired
     @Produces(APPLICATION_JSON)
     public Account findAccountByEmail(@PathParam("email") String email) {
         if(email == null || email.trim().length() == 0) {
