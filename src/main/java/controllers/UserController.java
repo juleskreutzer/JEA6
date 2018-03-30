@@ -4,12 +4,15 @@ import domain.Account;
 import domain.Group;
 import exceptions.EmailAllreadyRegisteredException;
 import service.AccountService;
+import util.ROLE;
 
 import javax.enterprise.context.RequestScoped;
 import javax.faces.event.ValueChangeEvent;
 import javax.inject.Inject;
 import javax.inject.Named;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.logging.Logger;
 
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -91,7 +94,7 @@ public class UserController implements Serializable {
     }
 
     public Account searchByFullname(String partOfFullname) {
-        this.searchResult = accountService.findByFullName(partOfFullname);
+        this.searchResult = accountService.findByUsername(partOfFullname);
 
         this.id = this.searchResult.getId();
         this.username = this.searchResult.getUsername();
@@ -113,6 +116,12 @@ public class UserController implements Serializable {
     public void searchFilterChanged(ValueChangeEvent vce) {
         this.searchByFullname((String) vce.getNewValue());
     }
+
+    public void removeFilterChanged(ValueChangeEvent vce) {
+        Logger logger = Logger.getLogger("InfoLogging");
+        logger.warning("VCE called");
+        this.idOfUserToBeRemoved = (long) vce.getNewValue();
+        this.deleteUser();}
 
     public String getId() {
         return String.valueOf(id);
@@ -202,10 +211,21 @@ public class UserController implements Serializable {
         account.setProfileImage(this.profileImage);
         account.setWeb(this.website);
 
+        Group g = new Group();
+        g.setGroupName(ROLE.valueOf(this.role));
+        ArrayList<Account> al = new ArrayList<>();
+        al.add(account);
+        ArrayList<Group> groups = new ArrayList<>();
+        groups.add(g);
+
+        account.setGroups(groups);
+
         accountService.createAccount(account);
     }
 
-    public void deleteUser(long id) {
-        accountService.deleteAccount(id);
+    public void deleteUser() {
+        Logger logger = Logger.getLogger("InfoLogging");
+        logger.warning("Delete user called");
+        accountService.deleteAccount(this.idOfUserToBeRemoved);
     }
 }

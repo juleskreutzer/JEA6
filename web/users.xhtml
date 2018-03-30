@@ -37,7 +37,7 @@
                         <h6 class="card-subtitle mb-2 text-muted">Search for a specific user</h6>
 
                             <div class="input-group col-md-12">
-                                <h:form>
+                                <h:form id="userSearchForm">
                                 <h:inputText type="text" id="search" value="#{UserController.searchFilter}" valueChangeListener="#{UserController.searchFilterChanged}" class="form-control input-lg" />
                                 <span class="input-group-btn">
                                     <h:commandButton class="btn btn-info btn-lg" action="#{UserController.searchByFullname(UserController.searchFilter)}" type="button">
@@ -53,9 +53,10 @@
                     <div class="card-header">Delete Account</div>
                     <div class="card-body">
                         <h5 class="card-title">Fill in the ID of the user that you want to remove.</h5>
-                        <h:form>
-                            <h:inputText type="text" id="txtDeleteUser" value="#{UserController.idOfUserToBeRemoved}" class="form-control input-lg" />
-                            <h:commandButton class="btn btn-dark btn-lg" action="#{UserController.deleteUser(UserController.idOfUserToBeRemoved)}" type="button" value="Delete Account"></h:commandButton>
+                        <h:form id="UserDeleteForm">
+                            <h:inputText type="text" id="txtDeleteUser" value="#{UserController.idOfUserToBeRemoved}" valueChangeListener="#{UserController.removeFilterChanged}" class="form-control input-lg" />
+                            <h:commandButton class="btn btn-dark btn-lg" action="#{UserController.deleteUser()}" type="button" value="Delete Account">
+                            </h:commandButton>
                         </h:form>
                     </div>
                 </div>

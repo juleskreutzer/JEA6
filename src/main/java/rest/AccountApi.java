@@ -111,9 +111,13 @@ public class AccountApi {
         Account account = new Account(accountRegistration.getEmail(), accountRegistration.getPassword());
 
         try {
-            service.createAccount(account);
+            boolean result = service.createAccount(account);
+
+            if(!result) {
+                throw new EmailAllreadyRegisteredException(ResponseMessage.EMAIL_ALLREADY_REGISTERED);
+            }
         } catch(EmailAllreadyRegisteredException eae) {
-            throw new WebApplicationException(eae.getMessage(), Response.Status.INTERNAL_SERVER_ERROR);
+            throw new WebApplicationException(eae.getMessage(), Response.Status.NOT_ACCEPTABLE);
         } catch(Exception e) {
             throw new WebApplicationException(e.getMessage(), Response.Status.INTERNAL_SERVER_ERROR);
         }
@@ -124,6 +128,34 @@ public class AccountApi {
         }
 
         throw new WebApplicationException(ResponseMessage.UNABLE_TO_CREATE_ACCOUNT, Response.Status.INTERNAL_SERVER_ERROR);
+    }
+
+    @POST
+    @Produces(APPLICATION_JSON)
+    @Consumes(APPLICATION_JSON)
+    @Path("/login")
+    public String login(AccountRegistration accountRegistration) {
+        if(accountRegistration.getEmail() == null || accountRegistration.getEmail().trim().length() == 0 ||
+                accountRegistration.getPassword() == null || accountRegistration.getPassword().trim().length() == 0) {
+            throw new WebApplicationException(Response.Status.NOT_ACCEPTABLE);
+        }
+
+        String email = accountRegistration.getEmail();
+        String password = accountRegistration.getPassword();
+
+        boolean result = service.login(email, password);
+
+        if(result) {
+            // Login is successful, generate JWT
+            String token = service.issueJsonWebToken(email);
+
+            return token;
+
+        } else {
+            throw new WebApplicationException(Response.Status.UNAUTHORIZED);
+        }
+
+
     }
 
     @POST

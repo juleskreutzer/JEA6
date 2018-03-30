@@ -1,5 +1,8 @@
 package rest;
 
+import util.CORSFilter;
+import util.JWT.JWTAuthFilter;
+
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 import java.util.HashSet;
@@ -20,13 +23,7 @@ import java.util.Set;
 public class JaxRsApplication extends Application {
 
     public JaxRsApplication() {
-//        BeanConfig beanConfig = new BeanConfig();
-//        beanConfig.setVersion("1.0.2");
-//        beanConfig.setSchemes(new String[]{"http"});
-//        beanConfig.setHost("localhost:8002");
-//        beanConfig.setBasePath("/api");
-//        beanConfig.setResourcePackage("io.swagger.resources");
-//        beanConfig.setScan(true);
+
     }
 
     @Override
@@ -35,6 +32,8 @@ public class JaxRsApplication extends Application {
 
         resources.add(AccountApi.class);
         resources.add(KwetApi.class);
+        resources.add(CORSFilter.class);
+        resources.add(JWTAuthFilter.class);
 
         resources.add(io.swagger.jaxrs.listing.ApiListingResource.class);
         resources.add(io.swagger.jaxrs.listing.SwaggerSerializers.class);

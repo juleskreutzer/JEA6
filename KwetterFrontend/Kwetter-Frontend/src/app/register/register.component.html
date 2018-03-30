@@ -1,3 +1,25 @@
-<p>
-  register works!
-</p>
+<mat-card class="center card-default-size">
+  <mat-card-header>
+    <mat-card-title><h2>{{ title }}</h2></mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form>
+      <mat-form-field>
+        <input matInput placeholder="Email address" type="email" [(ngModel)]="txtEmail" name="txtEmail" required="required">
+      </mat-form-field><br>
+      <mat-form-field>
+        <input matInput placeholder="Password" type="password" [(ngModel)]="txtPassword" name="txtPassword" required="required">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Confirm Password" type="password" [(ngModel)]="txtPasswordConfirm" name="txtPasswordConfirm" required="required">
+      </mat-form-field>
+    </form>
+
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="primary" (click)="register()">Register</button>
+  </mat-card-actions>
+  <mat-card-footer>
+    <h6>Allready have an account? Login <a routerLink="/login" color="accent">here</a></h6>
+  </mat-card-footer>
+</mat-card>

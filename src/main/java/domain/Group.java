@@ -4,6 +4,7 @@ import util.ROLE;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -21,9 +22,12 @@ import java.util.List;
 public class Group implements Serializable {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
+
     private String groupname;
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(name="USER_GROUP",
             joinColumns = @JoinColumn(name = "groupname",
                     referencedColumnName = "groupname"),
@@ -32,6 +36,7 @@ public class Group implements Serializable {
     private List<Account> users;
 
     public Group() {
+        this.users = new ArrayList<Account>();
     }
 
     public String getGroupName() {
@@ -48,5 +53,9 @@ public class Group implements Serializable {
 
     public void setUsers(List<Account> users) {
         this.users = users;
+    }
+
+    public void addUser(Account account) {
+        this.users.add(account);
     }
 }

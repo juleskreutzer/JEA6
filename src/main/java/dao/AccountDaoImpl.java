@@ -9,6 +9,7 @@ import util.ROLE;
 import util.ResponseMessage;
 
 import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
 import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
@@ -16,6 +17,7 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -36,17 +38,16 @@ public class AccountDaoImpl implements IAccountDao {
     @PersistenceContext(unitName = "KwetterGlassfish")
     private EntityManager em;
 
+    @Inject
+    private GroupDao groupDao;
+
     public void setEntityManager(EntityManager em) {
         this.em = em;
     }
 
     public void createAccount(Account u) throws EmailAllreadyRegisteredException {
         if(this.findAccountByEmail(u.getEmail()) == null) {
-            Group group = new Group();
-            group.setGroupName(ROLE.USER);
             ArrayList<Group> groups = new ArrayList<>();
-            groups.add(group);
-            u.setGroups(groups);
             em.persist(u);
         } else {
             throw new EmailAllreadyRegisteredException(ResponseMessage.EMAIL_ALLREADY_REGISTERED);
@@ -62,6 +63,8 @@ public class AccountDaoImpl implements IAccountDao {
     }
 
     public void removeAccount(Account u) {
+        Logger logger = Logger.getLogger("InfoLogging");
+        logger.warning("Entity manager should remove user "  + u.getId());
         em.remove(u);
     }
 
@@ -155,7 +158,16 @@ public class AccountDaoImpl implements IAccountDao {
         }
     }
 
-    public boolean login(String Accountname, String password) {
-        throw new NotImplementedException();
+    public boolean login(String email, String password) {
+        Query q = em.createNamedQuery("Account.login");
+        q.setParameter("username", email);
+        q.setParameter("password", password);
+
+        try {
+            q.getSingleResult();
+            return true;
+        } catch (NoResultException nre) {
+            return false;
+        }
     }
 }

@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body { margin: 0px; }
 
 .fill-space {
     flex: 1 1 auto;
@@ -8,4 +10,17 @@
 .logo-link {
   color: inherit;
   text-decoration: none;
+}
+
+.card-default-size {
+  max-width: 400px;
+
+}
+
+.center {
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+  border: none;
+  padding: 10px;
 }

@@ -4,11 +4,19 @@ import dao.AccountDaoImpl;
 import domain.Account;
 import exceptions.AccountNotFoundException;
 import exceptions.EmailAllreadyRegisteredException;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
+import io.jsonwebtoken.impl.crypto.MacProvider;
+import org.apache.commons.lang3.time.DateUtils;
 
+import javax.crypto.KeyGenerator;
 import javax.ejb.Stateless;
 import javax.enterprise.context.Dependent;
 import javax.inject.Inject;
+import java.security.Key;
+import java.time.LocalDateTime;
 import java.util.Collection;
+import java.util.Date;
 
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -44,6 +52,8 @@ public class AccountService {
         return accountDao.findAccountByFullName(fullName);
     }
 
+    public Account findByUsername(String username) { return accountDao.findAccountByUsername(username); }
+
     public boolean createAccount(Account account) throws EmailAllreadyRegisteredException {
         boolean emailAllreadyRegistered = false;
 
@@ -77,5 +87,22 @@ public class AccountService {
         Account account = this.findById(id);
 
         accountDao.removeAccount(account);
+    }
+
+    public boolean login(String email, String password) {
+        if(email.isEmpty() || password.isEmpty()) { return false; }
+         return accountDao.login(email, password);
+    }
+
+    public String issueJsonWebToken(String subject) {
+        Key key = MacProvider.generateKey();
+        Date date = new Date();
+        String jwtToken = Jwts.builder()
+                .setSubject(subject)
+                .setIssuedAt(date)
+                .setExpiration(DateUtils.addMinutes(date, 30))
+                .signWith(SignatureAlgorithm.HS512, key)
+                .compact();
+        return jwtToken;
     }
 }
