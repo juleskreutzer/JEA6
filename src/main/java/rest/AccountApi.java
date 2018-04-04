@@ -149,10 +149,7 @@ public class AccountApi {
 
         if(result) {
             // Login is successful, generate JWT
-            String token = service.issueJsonWebToken(email);
-
-            return token;
-
+            return service.issueJsonWebToken(email);
         } else {
             throw new WebApplicationException(Response.Status.UNAUTHORIZED);
         }

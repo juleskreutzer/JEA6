@@ -25,22 +25,17 @@ public class JWTAuthFilter implements ContainerRequestFilter {
 
     @Override
     public void filter(ContainerRequestContext containerRequestContext) throws IOException {
-        String authorizationHeader = containerRequestContext.getHeaderString("Authorization");
-        if(authorizationHeader == null || !authorizationHeader.isEmpty()) {
+        String token = containerRequestContext.getHeaderString("Authorization");
+        if(token != null || !token.isEmpty()) {
 
             try {
-                String token = authorizationHeader.substring("Bearer".length()).trim();
                 // Try to validate the token
-                Key key = MacProvider.generateKey();
+                Key key = util.JWT.KeyGenerator.getInstance().getKey();
                 Jwts.parser().setSigningKey(key).parseClaimsJws(token);
             } catch (SignatureException | NullPointerException e) {
                 // Token not valid
                 containerRequestContext.abortWith(Response.status(Response.Status.UNAUTHORIZED).build());
             }
-        } else {
-            containerRequestContext.abortWith(Response.status(Response.Status.UNAUTHORIZED).build());
         }
-
-
     }
 }

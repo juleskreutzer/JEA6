@@ -95,7 +95,7 @@ public class AccountService {
     }
 
     public String issueJsonWebToken(String subject) {
-        Key key = MacProvider.generateKey();
+        Key key = util.JWT.KeyGenerator.getInstance().getKey();
         Date date = new Date();
         String jwtToken = Jwts.builder()
                 .setSubject(subject)

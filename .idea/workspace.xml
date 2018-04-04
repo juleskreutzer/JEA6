@@ -7,7 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05cd1d1f-3989-48a8-af03-debf6f966178" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/JWT/KeyGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -133,7 +136,7 @@
       <file leaf-file-name="JWTRequired.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/JWTRequired.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="105">
               <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -145,10 +148,24 @@
       <file leaf-file-name="JWTAuthFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="480">
+              <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/KeyGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,8 +183,8 @@
       <file leaf-file-name="AccountApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rest/AccountApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+            <state relative-caret-position="310">
+              <caret line="151" column="52" selection-start-line="151" selection-start-column="52" selection-end-line="151" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -175,8 +192,8 @@
       <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/AccountService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+            <state relative-caret-position="673">
+              <caret line="97" column="62" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -185,7 +202,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1935">
-              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
             </state>
           </provider>
         </entry>
@@ -193,7 +210,7 @@
       <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
+            <state relative-caret-position="345">
               <caret line="28" column="126" selection-start-line="28" selection-start-column="126" selection-end-line="28" selection-end-column="126" />
             </state>
           </provider>
@@ -210,8 +227,8 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="XHTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -252,7 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/rest/Bootstrap.java" />
         <option value="$PROJECT_DIR$/Frontend/Kwetter-Frontend/src/environments/environment.prod.ts" />
         <option value="$PROJECT_DIR$/src/test/java/unit/domain/AccountTest.java" />
         <option value="$PROJECT_DIR$/WEB-INF/sun-web.xml" />
@@ -298,10 +314,11 @@
         <option value="$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/JWTAuthFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/JWTRequired.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/JWT/KeyGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java" />
       </list>
     </option>
@@ -390,8 +407,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -897,7 +914,8 @@
       <workItem from="1522222320551" duration="5517000" />
       <workItem from="1522252554901" duration="1542000" />
       <workItem from="1522317538239" duration="10201000" />
-      <workItem from="1522421061966" duration="2625000" />
+      <workItem from="1522421061966" duration="2903000" />
+      <workItem from="1522825784382" duration="143000" />
     </task>
     <servers />
   </component>
@@ -934,7 +952,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173055000" />
+    <option name="totallyTimeSpent" value="173476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -944,7 +962,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.502442" side_tool="true" weight="0.29785055" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3285568" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32967034" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="right" id="CDI" order="3" weight="0.32967034" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -955,16 +973,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39918116" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3271795" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32958034" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497558" weight="0.30358973" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32958034" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497558" visible="true" weight="0.30358973" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.36307693" />
       <window_info id="Persistence" order="3" sideWeight="0.5264706" side_tool="true" weight="0.25396827" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4735294" visible="true" weight="0.26312578" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4735294" visible="true" weight="0.26617828" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32967034" />
       <window_info id="Web" order="2" sideWeight="0.51755726" side_tool="true" weight="0.24481075" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -978,49 +995,50 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32958034" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3271795" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32958034" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
+      <window_info id="Persistence" order="8" sideWeight="0.5233236" side_tool="true" weight="0.24481075" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3285568" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.497558" weight="0.32958034" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.497558" weight="0.32958034" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497558" visible="true" weight="0.29785055" />
-      <window_info id="Persistence" order="8" sideWeight="0.5233236" side_tool="true" weight="0.24481075" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="13" side_tool="true" visible="true" weight="0.32967034" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
+      <window_info anchor="right" id="JSF" order="7" weight="0.32967034" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32958034" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
-      <window_info anchor="right" id="JSF" order="7" weight="0.32967034" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.502442" side_tool="true" weight="0.29785055" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3285568" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Mongo Explorer" order="12" weight="0.32967034" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47667637" visible="true" weight="0.24481075" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32958034" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32958034" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32967034" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32958034" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="JPA Console" order="13" weight="0.32958034" />
       <window_info anchor="right" id="Database" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="CDI" order="5" />
-      <window_info anchor="bottom" id="JPA Console" order="13" weight="0.32958034" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918116" />
+      <window_info anchor="right" id="Coverage" order="13" side_tool="true" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32958034" />
       <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918116" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1039,6 +1057,61 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/JWTRequired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="126" selection-start-line="28" selection-start-column="126" selection-end-line="28" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/AccountApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="151" column="52" selection-start-line="151" selection-start-column="52" selection-end-line="151" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/auth/error.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1054,52 +1127,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/WEB-INF/glassfish-web.xml">
-      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/node_modules/@angular/core/src/application_ref.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-INF/faces-config.xml">
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1168,21 +1200,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/protractor.conf.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="47" selection-start-column="47" selection-end-column="47" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/test.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/typings.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/login/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -1294,7 +1317,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/JWTRequired.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="105">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1309,16 +1332,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="345">
           <caret line="28" column="126" selection-start-line="28" selection-start-column="126" selection-end-line="28" selection-end-column="126" />
         </state>
       </provider>
@@ -1326,21 +1342,40 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1935">
-          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rest/AccountApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        <state relative-caret-position="310">
+          <caret line="151" column="52" selection-start-line="151" selection-start-column="52" selection-end-line="151" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/KeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="97" column="62" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="480">
+          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
