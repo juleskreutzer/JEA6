@@ -26,8 +26,8 @@ import java.util.List;
         @NamedQuery(name = "Account.getAccountByPartOfEmail", query = "SELECT u FROM Account u WHERE u.email LIKE :partOfEmail"),
         @NamedQuery(name = "Account.getAccountByFullName", query = "SELECT u FROM Account u WHERE u.fullName = :fullName"),
         @NamedQuery(name = "Account.getAccountByPartOfFullName", query = "SELECT u FROM Account u WHERE u.fullName LIKE :partOfFullName"),
-        @NamedQuery(name = "Account.getAccountByUsername", query = "SELECT u FROM Account u WHERE u.username LIKE :username"),
-        @NamedQuery(name = "Account.login", query = "SELECT u FROM Account u WHERE u.username = :username OR u.email = :username AND u.password = :password")
+        @NamedQuery(name = "Account.getAccountByUsername", query = "SELECT u FROM Account u WHERE u.username = :username"),
+        @NamedQuery(name = "Account.login", query = "SELECT u FROM Account u WHERE u.email = :email AND u.password = :password")
 })
 @Table(name = "Account")
 public class Account implements Serializable {

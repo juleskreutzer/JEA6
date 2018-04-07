@@ -160,7 +160,7 @@ public class AccountDaoImpl implements IAccountDao {
 
     public boolean login(String email, String password) {
         Query q = em.createNamedQuery("Account.login");
-        q.setParameter("username", email);
+        q.setParameter("email", email);
         q.setParameter("password", password);
 
         try {

@@ -93,7 +93,7 @@
     </table>
     <column id="22" parent="15" name="id">
       <Position>1</Position>
-      <DataType>integer|0</DataType>
+      <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1588</StateNumber>
       <DefaultExpression>nextval(&apos;account_id_seq&apos;::regclass)</DefaultExpression>
@@ -102,55 +102,55 @@
     </column>
     <column id="23" parent="15" name="bio">
       <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <StateNumber>1588</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="24" parent="15" name="email">
       <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <StateNumber>1588</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="25" parent="15" name="fullname">
       <Position>4</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <StateNumber>1588</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="26" parent="15" name="location">
       <Position>5</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <StateNumber>1588</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="27" parent="15" name="password">
       <Position>6</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <StateNumber>1588</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="28" parent="15" name="profileimage">
       <Position>7</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <StateNumber>1588</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="29" parent="15" name="username">
       <Position>8</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <StateNumber>1588</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="30" parent="15" name="web">
       <Position>9</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <StateNumber>1588</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="31" parent="15" name="group">
       <Position>10</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <StateNumber>1614</StateNumber>
       <TypeId>1043</TypeId>
     </column>
@@ -187,14 +187,14 @@
     </key>
     <column id="38" parent="16" name="account_id">
       <Position>1</Position>
-      <DataType>bigint|0</DataType>
+      <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1590</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="39" parent="16" name="follower_id">
       <Position>2</Position>
-      <DataType>bigint|0</DataType>
+      <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1590</StateNumber>
       <TypeId>20</TypeId>
@@ -232,14 +232,14 @@ follower_id</ColNames>
     </foreign-key>
     <column id="44" parent="17" name="account_id">
       <Position>1</Position>
-      <DataType>bigint|0</DataType>
+      <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1591</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="45" parent="17" name="following_id">
       <Position>2</Position>
-      <DataType>bigint|0</DataType>
+      <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1591</StateNumber>
       <TypeId>20</TypeId>
@@ -277,7 +277,7 @@ following_id</ColNames>
     </foreign-key>
     <column id="50" parent="18" name="id">
       <Position>1</Position>
-      <DataType>integer|0</DataType>
+      <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1589</StateNumber>
       <DefaultExpression>nextval(&apos;kwet_id_seq&apos;::regclass)</DefaultExpression>
@@ -286,19 +286,19 @@ following_id</ColNames>
     </column>
     <column id="51" parent="18" name="creationdate">
       <Position>2</Position>
-      <DataType>date|0</DataType>
+      <DataType>date|0s</DataType>
       <StateNumber>1589</StateNumber>
       <TypeId>1082</TypeId>
     </column>
     <column id="52" parent="18" name="text">
       <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <StateNumber>1589</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="53" parent="18" name="owner_id">
       <Position>4</Position>
-      <DataType>bigint|0</DataType>
+      <DataType>bigint|0s</DataType>
       <StateNumber>1589</StateNumber>
       <TypeId>20</TypeId>
     </column>
@@ -324,21 +324,21 @@ following_id</ColNames>
     </foreign-key>
     <column id="57" parent="19" name="kwet_id">
       <Position>1</Position>
-      <DataType>bigint|0</DataType>
+      <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1594</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="58" parent="19" name="likes_id">
       <Position>2</Position>
-      <DataType>bigint|0</DataType>
+      <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1594</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="59" parent="19" name="mentions_id">
       <Position>3</Position>
-      <DataType>bigint|0</DataType>
+      <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1594</StateNumber>
       <TypeId>20</TypeId>
@@ -387,13 +387,13 @@ mentions_id</ColNames>
     </foreign-key>
     <column id="65" parent="20" name="kwet_id">
       <Position>1</Position>
-      <DataType>bigint|0</DataType>
+      <DataType>bigint|0s</DataType>
       <StateNumber>1593</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="66" parent="20" name="hashtags">
       <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <StateNumber>1593</StateNumber>
       <TypeId>1043</TypeId>
     </column>
@@ -408,14 +408,14 @@ mentions_id</ColNames>
     </foreign-key>
     <column id="68" parent="21" name="username">
       <Position>1</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1592</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="69" parent="21" name="groupname">
       <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1592</StateNumber>
       <TypeId>1043</TypeId>

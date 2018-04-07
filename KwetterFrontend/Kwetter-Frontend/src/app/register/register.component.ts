@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router'
 import { HttpClient } from "@angular/common/http";
 
 @Component({
@@ -19,12 +20,12 @@ export class RegisterComponent implements OnInit {
     } else if(this.txtPasswordConfirm !== this.txtPassword) {
       alert("Both passwords do not match!");
     } else {
-      this.http.post("http://localhost:8080/Kwetter-1.0/api/accounts/create", {
+      this.http.post("http://85.144.215.28:8083/Kwetter-Dev/api/accounts/create", {
         email: this.txtEmail,
         password: this.txtPassword
       })
         .subscribe(res => {
-          alert("Succes!");
+          this.router.navigate(['/login']);
           console.log(res);
         }, err => {
           if(err['status'] === 406) {
@@ -37,7 +38,8 @@ export class RegisterComponent implements OnInit {
     }
   }
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) {
+  }
 
   ngOnInit() {
   }

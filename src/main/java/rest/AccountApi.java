@@ -15,6 +15,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
@@ -31,7 +32,6 @@ import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
  */
 
 @Stateless
-@DeclareRoles({"admin_role", "mod_role", "user_role"})
 @Path("/accounts")
 public class AccountApi {
 
@@ -40,8 +40,8 @@ public class AccountApi {
 
     @GET
     @Produces(APPLICATION_JSON)
-    @RolesAllowed({"admin_role", "mod_role"})
     @Path("/all")
+    @JWTRequired
     public Collection<Account> getAllAccounts() {
         Collection<Account> result = service.getAllAccounts();
 
@@ -71,6 +71,7 @@ public class AccountApi {
 
     @GET
     @Path("/id/{id}")
+    @JWTRequired
     @Produces(APPLICATION_JSON)
     public Account findAccountById(@PathParam("id") long id) {
         if(id <= 0) {
@@ -87,6 +88,7 @@ public class AccountApi {
 
     @GET
     @Path("/fullname/{fullName}")
+    @JWTRequired
     @Produces(APPLICATION_JSON)
     public Account findAccountByFullName(@PathParam("fullName") String fullName) {
         if(fullName == null || fullName.trim().length() == 0) {
@@ -133,10 +135,10 @@ public class AccountApi {
     }
 
     @POST
-    @Produces(APPLICATION_JSON)
     @Consumes(APPLICATION_JSON)
+    @Produces(APPLICATION_JSON)
     @Path("/login")
-    public String login(AccountRegistration accountRegistration) {
+    public HashMap<String, Object> login(AccountRegistration accountRegistration) {
         if(accountRegistration.getEmail() == null || accountRegistration.getEmail().trim().length() == 0 ||
                 accountRegistration.getPassword() == null || accountRegistration.getPassword().trim().length() == 0) {
             throw new WebApplicationException(Response.Status.NOT_ACCEPTABLE);
@@ -148,8 +150,16 @@ public class AccountApi {
         boolean result = service.login(email, password);
 
         if(result) {
+            HashMap<String, Object> dataToReturn = new HashMap<>();
             // Login is successful, generate JWT
-            return service.issueJsonWebToken(email);
+            String token = service.issueJsonWebToken(email);
+            Account account = service.findByEmail(accountRegistration.getEmail());
+
+            dataToReturn.put("token", token);
+            dataToReturn.put("account", account);
+
+            return dataToReturn;
+
         } else {
             throw new WebApplicationException(Response.Status.UNAUTHORIZED);
         }
@@ -160,6 +170,7 @@ public class AccountApi {
     @POST
     @Produces(APPLICATION_JSON)
     @Consumes(APPLICATION_JSON)
+    @JWTRequired
     @Path("/update/{id}")
     public void updateAccount(@PathParam("id") long id, @FormParam("bio") String bio, @FormParam("fulllName") String fullName, @FormParam("location") String location, @FormParam("profileImage") String profileImage, @FormParam("web") String web) {
         //TODO: Check provided params
@@ -174,6 +185,7 @@ public class AccountApi {
 
     @GET
     @Produces(APPLICATION_JSON)
+    @JWTRequired
     @Path("/followers/{id}")
     public List<Account> getFollowers(@PathParam("id") long id) {
         Account account = service.findById(id);
@@ -188,6 +200,7 @@ public class AccountApi {
 
     @GET
     @Produces(APPLICATION_JSON)
+    @JWTRequired
     @Path("/following/{id}")
     public List<Account> getFollowing(@PathParam("id") long id) {
         Account account = service.findById(id);

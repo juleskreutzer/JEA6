@@ -7,6 +7,9 @@ import { MatCardModule, MatIconModule, MatMenuModule, MatToolbarModule, MatGridL
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { AuthGuardService } from "./services/auth-guard.service";
+import { AuthService } from "./services/auth.service";
+import { CookieService } from 'ngx-cookie-service';
 import { RouterModule, Routes } from "@angular/router";
 import { KwetterComponent } from './kwetter/kwetter.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -16,7 +19,7 @@ import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 const routes : Routes = [
   { path: 'login', component: LoginComponent, data: {title: 'Kwetter - Login'} },
   { path: 'register', component: RegisterComponent, data: {title: 'Kwetter - Register'} },
-  { path: '', component: KwetterComponent, data: {title: 'Kwetter'} }
+  { path: '', component: KwetterComponent, data: {title: 'Kwetter'}, canActivate: [AuthGuardService] }
 ];
 
 
@@ -38,7 +41,11 @@ const routes : Routes = [
     MatGridListModule, MatButtonModule, MatInputModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    AuthGuardService,
+    AuthService,
+    CookieService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
