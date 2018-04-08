@@ -4,6 +4,7 @@ import {Router} from "@angular/router";
 import {Kwet} from "../domain";
 import {HttpClient} from "@angular/common/http";
 import {environment} from "../../environments/environment";
+import {HttpService} from "../services/http.service";
 
 @Component({
   selector: 'app-kwetter',
@@ -15,7 +16,7 @@ export class KwetterComponent implements OnInit {
   currentUser: Account;
   txtText: string;
 
-  constructor(private authService: AuthService, private router: Router, private http: HttpClient) {
+  constructor(private authService: AuthService, private router: Router, private http: HttpService) {
     this.currentUser = JSON.parse(localStorage.getItem("currentUser")).account;
   }
 
@@ -26,24 +27,41 @@ export class KwetterComponent implements OnInit {
 
   createKweet() {
     if(this.txtText !== undefined) {
-      this.http.post(environment.apiUrl + '/api/kwets/create', {
+      this.http.sendPostRequest('/api/kwets/create', {
         text: this.txtText,
         owner: this.currentUser,
         creationDate: new Date()
       })
-        .subscribe(res => {
-          console.log(res);
+      .subscribe(
+        res => {
+
         }, err => {
-          console.log(err);
-        });
+          if(err.status === 401) {
+            this.router.navigate(['/login']);
+          }
+        }
+      );
     } else {
       alert("Fill in some text");
     }
+  }
 
-
+  private loadAllKwets() {
+    this.http.sendGetRequest('/api/kwets/all').subscribe(
+      res => {
+        console.log(res);
+      },
+      err => {
+        if(err.status === 401) {
+          console.log(err);
+          this.router.navigate(['/login'])
+        }
+      }
+    );
   }
 
   ngOnInit() {
+    this.loadAllKwets();
   }
 
 }

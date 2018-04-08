@@ -26,6 +26,10 @@ export class AuthService {
       });
   }
 
+  getToken() : string {
+    return localStorage.getItem('token') === undefined ? "" : localStorage.getItem('token');
+  }
+
   logout() {
     // remove user from local storage to log user out
     localStorage.removeItem('currentUser');
