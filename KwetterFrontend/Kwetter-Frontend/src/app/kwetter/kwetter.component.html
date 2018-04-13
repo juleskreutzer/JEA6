@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="col-lg-8">
-      <div class="card">
+      <div class="card kweet">
         <div class="card-body">
           <div class="form-group">
             <label for="txtText">Maak een nieuwe Kweet</label>
@@ -24,7 +24,20 @@
           </div>
         </div>
       </div>
-
+      <div class="card kweet" *ngFor="let kwet of kwets">
+        <div class="card-header">
+          By <a routerLink="/profile/{{ kwet.owner.id }}">{{ kwet.owner.email }}</a>
+        </div>
+        <div class="card-body">
+          <p>{{ kwet.text}}</p>
+        </div>
+        <div class="card-footer">
+          {{ kwet.creationDate }} | {{ kwet.likes === undefined ? 0 : kwet.likes}}
+          <button mat-icon-button color="primary" (click)="likeKweet(kwet.id)">
+            <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </div>

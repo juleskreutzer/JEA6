@@ -7,12 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05cd1d1f-3989-48a8-af03-debf6f966178" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/http.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/domain/Kwet.ts" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/domain/Kwet.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/http.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/http.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/IAccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/IAccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Kwet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Kwet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/AccountService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -133,177 +141,29 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/login/login.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="481">
-                  <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="51" />
-                  <folding>
-                    <element signature="e#0#50#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="auth-guard.service.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/auth-guard.service.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="kwetter.component.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" selection-start-line="26" selection-end-line="26" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="kwetter.component.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#0#50#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.module.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="517">
-                  <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#0#58#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="http.service.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/http.service.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Kwet.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/domain/Kwet.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Kwet.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/domain/Kwet.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Account.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/domain/Account.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/domain/index.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Kwet.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/domain/Kwet.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="218">
-                  <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="auth.service.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/auth.service.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="register.component.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/register/register.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="461">
-                  <caret line="37" column="11" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="37" selection-end-column="11" />
-                  <folding>
-                    <element signature="e#0#50#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="register.component.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/register/register.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="kwetter.component.spec.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.spec.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="e#0#73#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="edit-profile.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/edit-profile/edit-profile.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit-profile.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/edit-profile/edit-profile.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -356,16 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/login.xhtml" />
-        <option value="$PROJECT_DIR$/web/auth/error.xhtml" />
-        <option value="$PROJECT_DIR$/web/index.xhtml" />
-        <option value="$PROJECT_DIR$/web/auth/login.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/WEB-INF/glassfish-web.xml" />
-        <option value="$PROJECT_DIR$/WEB-INF/faces-config.xml" />
-        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/main.ts" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/util/GroupSetup.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/GroupDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Group.java" />
@@ -384,15 +234,9 @@
         <option value="$PROJECT_DIR$/src/main/java/util/JWTAuthFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/JWTRequired.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/JWT/KeyGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/CORSFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java" />
-        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/environments/environment.ts" />
-        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/environments/environment.prod.ts" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1ef64cad-a078-44e6-ba1f-b326706a7b3c/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" />
         <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/auth-guard.service.ts" />
         <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/login/login.component.ts" />
         <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.component.html" />
@@ -400,13 +244,29 @@
         <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/index.html" />
         <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/domain/Account.ts" />
         <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/domain/index.ts" />
-        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/domain/Kwet.ts" />
         <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/register/register.component.ts" />
-        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.html" />
-        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/auth.service.ts" />
-        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/_pipes/sort.pipe.ts" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.css" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Kwet.java" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/environments/environment.prod.ts" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/domain/Kwet.ts" />
         <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/http.service.ts" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/profile/profile.component.css" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.html" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/IKwetDoa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/IAccountDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/AccountApi.java" />
         <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.ts" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/profile/profile.component.html" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Account.java" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/auth.service.ts" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/profile/profile.component.ts" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/edit-profile/edit-profile.component.ts" />
+        <option value="$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/edit-profile/edit-profile.component.html" />
       </list>
     </option>
   </component>
@@ -493,7 +353,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -534,7 +393,7 @@
               <item name="Kwetter-Frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="edit-profile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
@@ -561,7 +420,7 @@
               <item name="Kwetter-Frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
@@ -571,22 +430,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="KwetterFrontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Kwetter-Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="KwetterFrontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Kwetter-Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
@@ -666,18 +509,25 @@
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
               <item name="JEA6" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JEA6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -741,7 +591,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.Kwetter Frontend">
+  <component name="RunManager" selected="GlassFish Server.Glassfish 5.0.0 Local">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -1093,7 +943,10 @@
       <workItem from="1522825784382" duration="4538000" />
       <workItem from="1522837439329" duration="575000" />
       <workItem from="1523118146710" duration="5359000" />
-      <workItem from="1523174629915" duration="2446000" />
+      <workItem from="1523174629915" duration="3837000" />
+      <workItem from="1523256882856" duration="5452000" />
+      <workItem from="1523537385019" duration="193000" />
+      <workItem from="1523612304242" duration="6261000" />
     </task>
     <servers />
   </component>
@@ -1130,7 +983,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186251000" />
+    <option name="totallyTimeSpent" value="199548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1140,14 +993,14 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.502442" side_tool="true" weight="0.29785055" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3285568" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32967034" />
-      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32923076" />
       <window_info anchor="right" id="CDI" order="3" weight="0.32967034" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32923076" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32923076" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" weight="0.32967034" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="JSF" order="3" weight="0.32967034" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39918116" />
@@ -1157,11 +1010,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32958034" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497558" visible="true" weight="0.30358973" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32958034" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497558" visible="true" weight="0.30358973" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.36307693" />
       <window_info id="Persistence" order="3" sideWeight="0.5264706" side_tool="true" weight="0.25396827" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4735294" visible="true" weight="0.2753358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4735294" visible="true" weight="0.2783883" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32967034" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -1227,7 +1080,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1235,76 +1088,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/GroupSetup.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GroupDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.xhtml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5040">
-          <caret line="372" column="14" selection-start-line="372" selection-start-column="14" selection-end-line="372" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/users.xhtml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="154" column="19" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/assets/config.json" />
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/config/config.service.ts" />
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/config/config.component.ts" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/8.0/javaee-web-api-8.0.jar!/javax/ws/rs/WebApplicationException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -1340,13 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/KeyGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rest/JaxRsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1354,24 +1130,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/CORSFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/environments/environment.prod.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1386,44 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/AccountApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="155" column="42" lean-forward="true" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/environments/environment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1455,13 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/KwetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/domain/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1469,33 +1186,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/register/register.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="11" selection-start-line="23" selection-start-column="6" selection-end-line="37" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/_pipes/sort.pipe.ts" />
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/Kwet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="497">
+          <caret line="111" column="69" selection-start-line="111" selection-start-column="69" selection-end-line="111" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/domain/Kwet.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rest/KwetApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1506,83 +1236,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/KeyGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/login/login.component.ts">
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/profile/profile.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/KwetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/KwetDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/IKwetDoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/KwetApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1101">
+          <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/JWT/JWTAuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/javax/security/auth/login/AccountException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/IAccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/AccountDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="152" column="28" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="57" column="69" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/auth-guard.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="210">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/http.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rest/AccountApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/profile/profile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="106" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="14" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dropDDL.jdbc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createDDL.jdbc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="435">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/profile/profile.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="26" column="124" selection-start-line="26" selection-start-column="124" selection-end-line="26" selection-end-column="124" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/register/register.component.ts">
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/login/login.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="37" column="11" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="37" selection-end-column="11" />
+        <state>
+          <caret selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/edit-profile/edit-profile.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/services/http.service.ts">
+    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/edit-profile/edit-profile.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KwetterFrontend/Kwetter-Frontend/src/app/kwetter/kwetter.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1617,7 +1460,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (JEA6)|Web</last-edited>
+          <last-edited>JPA</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1629,7 +1472,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>angular</last-edited>
+          <last-edited>bootstrap</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,5 +1,6 @@
 package domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import util.ROLE;
 
 import javax.json.bind.annotation.JsonbTransient;
@@ -57,11 +58,14 @@ public class Account implements Serializable {
     @JoinTable(name = "account_followers"
             , joinColumns = @JoinColumn(name = "account_id", referencedColumnName = "id", nullable = false)
             , inverseJoinColumns = @JoinColumn(name = "follower_id", referencedColumnName = "id", nullable = false))
+    @JsonIgnore
     private List<Account> followers;
+
     @OneToMany
     @JoinTable(name = "account_following"
             , joinColumns = @JoinColumn(name = "account_id", referencedColumnName = "id", nullable = false)
             , inverseJoinColumns = @JoinColumn(name = "following_id", referencedColumnName = "id", nullable = false))
+    @JsonIgnore
     private List<Account> following;
 
     private String profileImage;

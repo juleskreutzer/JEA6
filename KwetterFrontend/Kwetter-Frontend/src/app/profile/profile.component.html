@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card kweet">
+        <div class="card-header">
+          Information about the Kwetter account
+        </div>
+        <div class="card-body">
+          <ul>
+            <li>Email: {{ profile.email }}</li>
+            <li>Username: {{ profile.username }}</li>
+            <li>Location: {{ profile.location}}</li>
+            <li>Web: {{ profile.web }}</li>
+            <li>Following: {{ profile.follwing.length === undefined ? 0 : profile.follwing.length}}</li>
+            <li>Followers: {{ profile.followers.length === undefined ? 0 : profile.followers.length}}</li>
+          </ul>
+        </div>
+        <div class="card-footer">
+          <button mat-raised-button color="primary" (click)="followUser()">Follow</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <div class="card kweet" *ngFor="let kwet of kwets">
+        <div class="card-header">
+          Posted by this user
+        </div>
+        <div class="card-body">
+          <p>{{ kwet.text}}</p>
+        </div>
+        <div class="card-footer">
+          {{ kwet.creationDate }} | {{ kwet.likes === undefined ? 0 : kwet.likes}}
+          <button mat-icon-button color="primary">
+            <mat-icon aria-label="Example icon-button with a heart icon">favorite</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

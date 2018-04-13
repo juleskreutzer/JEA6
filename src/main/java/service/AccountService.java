@@ -94,6 +94,10 @@ public class AccountService {
          return accountDao.login(email, password);
     }
 
+    public void addFollower(Account base, Account follower) throws AccountNotFoundException {
+        accountDao.addFollowing(base, follower);
+    }
+
     public String issueJsonWebToken(String subject) {
         Key key = util.JWT.KeyGenerator.getInstance().getKey();
         Date date = new Date();
@@ -104,5 +108,12 @@ public class AccountService {
                 .signWith(SignatureAlgorithm.HS512, key)
                 .compact();
         return jwtToken;
+    }
+
+    public Account getAccountFromJwtToken(String token) {
+        Key key = util.JWT.KeyGenerator.getInstance().getKey();
+        String subject = Jwts.parser().setSigningKey(key).parseClaimsJws(token).getBody().getSubject();
+
+        return this.findByEmail(subject);
     }
 }

@@ -16,11 +16,16 @@ import { KwetterComponent } from './kwetter/kwetter.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { ProfileComponent } from './profile/profile.component';
+import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
 const routes : Routes = [
   { path: 'login', component: LoginComponent, data: {title: 'Kwetter - Login'} },
   { path: 'register', component: RegisterComponent, data: {title: 'Kwetter - Register'} },
-  { path: '', component: KwetterComponent, data: {title: 'Kwetter'}, canActivate: [AuthGuardService] }
+  { path: '', component: KwetterComponent, data: {title: 'Kwetter'}, canActivate: [AuthGuardService] },
+  { path: 'profile/:id', component: ProfileComponent, data: { title: 'Kwetter Profile' }, canActivate: [AuthGuardService] },
+  { path: 'me', component: EditProfileComponent, data: { title: 'Edit Kwetter Profile' }, canActivate: [AuthGuardService] },
+  { path: '**', component: KwetterComponent, data: {title: 'Kwetter' }, canActivate: [AuthGuardService] }
 ];
 
 
@@ -29,7 +34,9 @@ const routes : Routes = [
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    KwetterComponent
+    KwetterComponent,
+    ProfileComponent,
+    EditProfileComponent
   ],
   imports: [
     RouterModule.forRoot(

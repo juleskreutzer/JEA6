@@ -2,6 +2,7 @@ package rest;
 
 import domain.Account;
 import domain.AccountRegistration;
+import exceptions.AccountNotFoundException;
 import exceptions.EmailAllreadyRegisteredException;
 import service.AccountService;
 import util.JWT.JWTRequired;
@@ -211,5 +212,22 @@ public class AccountApi {
         }
 
         return result;
+    }
+
+    @POST
+    @JWTRequired
+    @Path("/follow/{id}")
+    public void follow(@PathParam("id") long id, @HeaderParam("Authorization") String token) {
+        Account follower = service.getAccountFromJwtToken(token);
+
+        if(id < 1) { throw new WebApplicationException(Response.Status.NOT_ACCEPTABLE); }
+
+        Account base = service.findById(id);
+
+        try {
+            service.addFollower(base, follower);
+        } catch (AccountNotFoundException e) {
+            throw new WebApplicationException(Response.Status.INTERNAL_SERVER_ERROR);
+        }
     }
 }

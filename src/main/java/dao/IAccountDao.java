@@ -4,6 +4,7 @@ import domain.Account;
 import exceptions.AccountNotFoundException;
 import exceptions.EmailAllreadyRegisteredException;
 
+import javax.security.auth.login.AccountException;
 import java.util.List;
 
 /**
@@ -72,6 +73,8 @@ public interface IAccountDao {
      */
     List<Account> getAllFollowing(Account u);
 
+    void addFollowing(Account base, Account follower) throws AccountNotFoundException;
+
     /**
      * Get the amount of Accounts that the current Account is following
      * @param u
@@ -85,6 +88,8 @@ public interface IAccountDao {
      * @return
      */
     List<Account> getAllFollowers(Account u);
+
+    void addFollower(Account base, Account following) throws AccountNotFoundException;
 
     /**
      * Get the amount of Accounts that are following the current Account

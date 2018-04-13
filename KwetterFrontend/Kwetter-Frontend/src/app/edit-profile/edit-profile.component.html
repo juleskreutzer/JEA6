@@ -1,0 +1,72 @@
+<mat-card class="center card-default-size">
+  <mat-card-header>
+    <mat-card-title><h2>Update your kwetter account</h2></mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+
+    <form>
+      <table>
+        <tr>
+          <td><label for="txtEmail">Email</label></td>
+          <td>&nbsp;</td>
+          <td>
+            <mat-form-field>
+              <input matInput placeholder="{{ currentUser.email }}" type="email" id="txtEmail" required="required">
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txtEmail">Display name</label></td>
+          <td>&nbsp;</td>
+          <td>
+            <mat-form-field>
+              <input matInput placeholder="{{ currentUser.displayName }}" type="email" id="txtDisplayName" required="required">
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txtEmail">Full name</label></td>
+          <td>&nbsp;</td>
+          <td>
+            <mat-form-field>
+              <input matInput placeholder="{{ currentUser.fullName }}" type="email" id="txtFullName" required="required">
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txtEmail">Profile Image url</label></td>
+          <td>&nbsp;</td>
+          <td>
+            <mat-form-field>
+              <input matInput placeholder="{{ currentUser.profileImage }}" type="email" id="txtProfileImage" required="required">
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txtEmail">Website</label></td>
+          <td>&nbsp;</td>
+          <td>
+            <mat-form-field>
+              <input matInput placeholder="{{ currentUser.web }}" type="email" id="txtWeb" required="required">
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="txtEmail">Biography</label></td>
+          <td>&nbsp;</td>
+          <td>
+            <mat-form-field>
+              <textarea matInput placeholder="{{ currentUser.bio }}"></textarea>
+            </mat-form-field>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="primary" (click)="update()">Update</button>
+  </mat-card-actions>
+  <mat-card-footer>
+  </mat-card-footer>
+</mat-card>

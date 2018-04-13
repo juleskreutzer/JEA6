@@ -15,6 +15,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
+import javax.security.auth.login.AccountException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
@@ -121,6 +122,17 @@ public class AccountDaoImpl implements IAccountDao {
         return account.getFollowing();
     }
 
+    @Override
+    public void addFollowing(Account base, Account follower) throws AccountNotFoundException {
+        if(base == null) { throw new AccountNotFoundException("Please provide a base account"); }
+        if(follower == null) { throw new AccountNotFoundException("Please provide a follower"); }
+
+        base.addFollower(follower);
+
+        em.merge(base);
+        this.addFollower(base, follower);
+    }
+
     public int getFollowingCount(Account u) {
         Account account = this.findAccountByEmail(u.getEmail());
         return account.getFollowing().size();
@@ -129,6 +141,16 @@ public class AccountDaoImpl implements IAccountDao {
     public List<Account> getAllFollowers(Account u) {
         Account account = this.findAccountByEmail(u.getEmail());
         return account.getFollowers();
+    }
+
+    @Override
+    public void addFollower(Account base, Account following) throws AccountNotFoundException {
+        if(base == null) { throw new AccountNotFoundException("Please provide a base account"); }
+        if(following == null) { throw new AccountNotFoundException("Please provide a following"); }
+
+        following.addFollowing(base);
+
+        em.merge(following);
     }
 
     public int getFollowersCount(Account u){

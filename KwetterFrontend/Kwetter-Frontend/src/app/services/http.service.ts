@@ -13,22 +13,13 @@ export class HttpService {
   }
 
   sendGetRequest(url: string) {
-    return this.http.get<any>(this.baseUrl + url, {headers: this.createAuthHeader()})
+    return this.http.get<any>(this.baseUrl + url, {headers: { 'Authorization': this.auth.getToken()}})
       .map(data => { return data; });
   }
 
   sendPostRequest(url: string, body: object) {
-    return this.http.post<any>(this.baseUrl + url, body, {headers: this.createAuthHeader()})
+    return this.http.post<any>(this.baseUrl + url, body, {headers: { 'Authorization': this.auth.getToken()}})
       .map(data => { return data; });
 
   }
-
-  private createAuthHeader() : HttpHeaders {
-    const headers = new HttpHeaders();
-
-    headers.set('Authorization', this.auth.getToken());
-
-    return headers;
-  }
-
 }

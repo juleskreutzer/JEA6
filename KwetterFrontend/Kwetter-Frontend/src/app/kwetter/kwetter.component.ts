@@ -14,6 +14,7 @@ import {HttpService} from "../services/http.service";
 export class KwetterComponent implements OnInit {
 
   currentUser: Account;
+  kwets: Kwet[] = [];
   txtText: string;
 
   constructor(private authService: AuthService, private router: Router, private http: HttpService) {
@@ -34,7 +35,7 @@ export class KwetterComponent implements OnInit {
       })
       .subscribe(
         res => {
-
+            window.location.reload();
         }, err => {
           if(err.status === 401) {
             this.router.navigate(['/login']);
@@ -49,7 +50,14 @@ export class KwetterComponent implements OnInit {
   private loadAllKwets() {
     this.http.sendGetRequest('/api/kwets/all').subscribe(
       res => {
-        console.log(res);
+        var temp: Kwet[];
+        temp = res;
+
+        this.kwets = temp.sort(function(a, b) {
+          if(b === undefined) { return 0; } else {
+            return +new Date(b.creationDate.replace('[UTC]', '')) - +new Date(a.creationDate.replace('[UTC]', ''))
+          }
+        });
       },
       err => {
         if(err.status === 401) {
@@ -58,6 +66,10 @@ export class KwetterComponent implements OnInit {
         }
       }
     );
+  }
+
+  likeKweet(id: number) {
+    console.log("Liking kweet with id " + id);
   }
 
   ngOnInit() {

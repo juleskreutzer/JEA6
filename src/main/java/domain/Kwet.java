@@ -25,7 +25,7 @@ import java.util.List;
         @NamedQuery(name = "Kwet.GetByOwnerAndText", query = "SELECT k FROM Kwet k WHERE k.owner.id = :id AND k.text = :text")
 })
 @Table(name = "Kwet")
-public class Kwet implements Serializable {
+public class Kwet implements Serializable, Comparable<Kwet> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -105,5 +105,10 @@ public class Kwet implements Serializable {
 
     public void setLikes(List<Account> likes) {
         this.likes = likes;
+    }
+
+    @Override
+    public int compareTo(Kwet o) {
+        return o.getCreationDate().compareTo(this.getCreationDate());
     }
 }

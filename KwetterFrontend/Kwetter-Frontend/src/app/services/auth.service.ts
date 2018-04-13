@@ -30,6 +30,10 @@ export class AuthService {
     return localStorage.getItem('token') === undefined ? "" : localStorage.getItem('token');
   }
 
+  getAccount() : Account {
+    return JSON.parse(localStorage.getItem('currentUser')).account;
+  }
+
   logout() {
     // remove user from local storage to log user out
     localStorage.removeItem('currentUser');
