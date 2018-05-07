@@ -11,16 +11,16 @@
           <td>&nbsp;</td>
           <td>
             <mat-form-field>
-              <input matInput placeholder="{{ currentUser.email }}" type="email" id="txtEmail" required="required">
+              <input matInput placeholder="{{ currentUser.email }}" type="email" id="txtEmail" required="required" #email>
             </mat-form-field>
           </td>
         </tr>
         <tr>
-          <td><label for="txtEmail">Display name</label></td>
+          <td><label for="txtEmail">Location</label></td>
           <td>&nbsp;</td>
           <td>
             <mat-form-field>
-              <input matInput placeholder="{{ currentUser.displayName }}" type="email" id="txtDisplayName" required="required">
+              <input matInput placeholder="{{ currentUser.location }}" type="email" id="txtDisplayName" required="required" #location>
             </mat-form-field>
           </td>
         </tr>
@@ -29,7 +29,7 @@
           <td>&nbsp;</td>
           <td>
             <mat-form-field>
-              <input matInput placeholder="{{ currentUser.fullName }}" type="email" id="txtFullName" required="required">
+              <input matInput placeholder="{{ currentUser.fullName }}" type="email" id="txtFullName" required="required" #fullname>
             </mat-form-field>
           </td>
         </tr>
@@ -38,7 +38,7 @@
           <td>&nbsp;</td>
           <td>
             <mat-form-field>
-              <input matInput placeholder="{{ currentUser.profileImage }}" type="email" id="txtProfileImage" required="required">
+              <input matInput placeholder="{{ currentUser.profileImage }}" type="email" id="txtProfileImage" required="required" #profileimage>
             </mat-form-field>
           </td>
         </tr>
@@ -47,7 +47,7 @@
           <td>&nbsp;</td>
           <td>
             <mat-form-field>
-              <input matInput placeholder="{{ currentUser.web }}" type="email" id="txtWeb" required="required">
+              <input matInput placeholder="{{ currentUser.web }}" type="email" id="txtWeb" required="required" #web>
             </mat-form-field>
           </td>
         </tr>
@@ -56,7 +56,7 @@
           <td>&nbsp;</td>
           <td>
             <mat-form-field>
-              <textarea matInput placeholder="{{ currentUser.bio }}"></textarea>
+              <textarea matInput placeholder="{{ currentUser.bio }}" #bio></textarea>
             </mat-form-field>
           </td>
         </tr>
@@ -65,7 +65,7 @@
 
   </mat-card-content>
   <mat-card-actions>
-    <button mat-raised-button color="primary" (click)="update()">Update</button>
+    <button mat-raised-button color="primary" (click)="update(email.value, location.value, fullname.value, profileimage.value, web.value, bio.value)">Update</button>
   </mat-card-actions>
   <mat-card-footer>
   </mat-card-footer>

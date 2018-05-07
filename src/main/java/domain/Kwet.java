@@ -1,5 +1,8 @@
 package domain;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
@@ -25,6 +28,7 @@ import java.util.List;
         @NamedQuery(name = "Kwet.GetByOwnerAndText", query = "SELECT k FROM Kwet k WHERE k.owner.id = :id AND k.text = :text")
 })
 @Table(name = "Kwet")
+@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 public class Kwet implements Serializable, Comparable<Kwet> {
 
     @Id
@@ -39,8 +43,10 @@ public class Kwet implements Serializable, Comparable<Kwet> {
     private Account owner;
     @ElementCollection
     private List<String> hashtags;
+
     @OneToMany
     private List<Account> mentions;
+
     @OneToMany
     private List<Account> likes;
 

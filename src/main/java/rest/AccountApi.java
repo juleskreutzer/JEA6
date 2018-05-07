@@ -1,5 +1,6 @@
 package rest;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import domain.Account;
 import domain.AccountRegistration;
 import exceptions.AccountNotFoundException;
@@ -41,7 +42,6 @@ public class AccountApi {
 
     @GET
     @Produces(APPLICATION_JSON)
-    @Path("/all")
     @JWTRequired
     public Collection<Account> getAllAccounts() {
         Collection<Account> result = service.getAllAccounts();
@@ -67,6 +67,8 @@ public class AccountApi {
             throw new WebApplicationException(Response.Status.NO_CONTENT);
         }
 
+        result.createApiRef(result.getId());
+
         return result;
     }
 
@@ -84,6 +86,7 @@ public class AccountApi {
             throw new WebApplicationException(Response.Status.NO_CONTENT);
         }
 
+        result.createApiRef(result.getId());
         return result;
     }
 
@@ -101,6 +104,7 @@ public class AccountApi {
             throw new WebApplicationException(Response.Status.NO_CONTENT);
         }
 
+        result.createApiRef(result.getId());
         return result;
     }
 
@@ -155,6 +159,7 @@ public class AccountApi {
             // Login is successful, generate JWT
             String token = service.issueJsonWebToken(email);
             Account account = service.findByEmail(accountRegistration.getEmail());
+            account.createApiRef(account.getId());
 
             dataToReturn.put("token", token);
             dataToReturn.put("account", account);
@@ -173,7 +178,12 @@ public class AccountApi {
     @Consumes(APPLICATION_JSON)
     @JWTRequired
     @Path("/update/{id}")
-    public void updateAccount(@PathParam("id") long id, @FormParam("bio") String bio, @FormParam("fulllName") String fullName, @FormParam("location") String location, @FormParam("profileImage") String profileImage, @FormParam("web") String web) {
+    public void updateAccount(@PathParam("id") long id, JsonNode data) {
+        String bio = data.get("txtbio").asText();
+        String fullName = data.get("txtfullname").asText();
+        String location = data.get("txtlocation").asText();
+        String profileImage = data.get("txtprofileimage").asText();
+        String web = data.get("txtweb").asText();
         //TODO: Check provided params
         //TODO: Use service to update account?
         Account account = service.findById(id);

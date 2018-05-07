@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import {HttpService} from "../services/http.service";
 import {AuthService} from "../services/auth.service";
+import * as http from "http";
+import {Account} from "../domain";
+import {HttpClient} from "@angular/common/http";
+import {environment} from "../../environments/environment";
 
 @Component({
   selector: 'app-edit-profile',
@@ -11,14 +15,47 @@ export class EditProfileComponent implements OnInit {
 
   private currentUser: Account;
 
-  constructor(private http: HttpService, private auth: AuthService) {
-    this.currentUser = this.auth.getAccount();
+  constructor(private http: HttpClient, private auth: AuthService) {
+    this.currentUser = <Account>this.auth.getAccount();
   }
 
   ngOnInit() {
   }
 
-  update() {
+  update(email: string, location: string, fullname: string, profileimage: string, web: string, bio: string) {
+    let id = this.auth.getAccount().id;
+    // var user = {
+    //   email: email,
+    //   location: location,
+    //   profileImage: profileimage,
+    //   web: web,
+    //   bio: bio
+    // };
+    // console.log(user);
+    // this.http.sendPostRequest('/api/accounts/update/' + id, user)
+    //   .subscribe(res => {
+    //     alert('Profile updated!');
+    //   }, err => {
+    //     console.log(err);
+    //     alert('Something went wrong');
+    //   })
+
+    this.http.post<any>(environment.apiUrl + '/api/accounts/update/' + id, {
+      txtemail: email,
+      txtlocation: location,
+      txtfullname: fullname,
+      txtprofileimage: profileimage,
+      txtweb: web,
+      txtbio: bio
+    }, {headers: { 'Authorization': this.auth.getToken()})
+      .map(user => {
+        return user;
+      }).subscribe(res => {
+        alert('Update ok!');
+    }, err => {
+        console.log(err);
+        alert('something went wrong!');
+    });
 
   }
 

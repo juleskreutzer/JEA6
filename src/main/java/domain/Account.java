@@ -1,6 +1,8 @@
 package domain;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import util.ROLE;
 
 import javax.json.bind.annotation.JsonbTransient;
@@ -31,6 +33,7 @@ import java.util.List;
         @NamedQuery(name = "Account.login", query = "SELECT u FROM Account u WHERE u.email = :email AND u.password = :password")
 })
 @Table(name = "Account")
+@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 public class Account implements Serializable {
 
     @Id
@@ -53,6 +56,9 @@ public class Account implements Serializable {
     private String web;
 
     private String bio;
+
+    @Transient
+    private ApiRef apiRef;
 
     @OneToMany
     @JoinTable(name = "account_followers"
@@ -194,6 +200,16 @@ public class Account implements Serializable {
 
     public void setGroups(List<Group> groups) {
         this.groups = groups;
+    }
+
+    public void createApiRef(long id) { this.apiRef = new ApiRef(id); }
+
+    public ApiRef getApiRef() {
+        return apiRef;
+    }
+
+    public void setApiRef(ApiRef apiRef) {
+        this.apiRef = apiRef;
     }
 }
 
