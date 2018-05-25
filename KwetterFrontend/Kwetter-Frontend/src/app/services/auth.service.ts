@@ -2,6 +2,7 @@ import {Injectable} from '@angular/core';
 import { CookieService } from 'ngx-cookie-service';
 import { HttpClient } from '@angular/common/http';
 import {environment} from '../../environments/environment';
+import * as Account from '../domain/Account'
 import {Router} from '@angular/router';
 
 @Injectable()

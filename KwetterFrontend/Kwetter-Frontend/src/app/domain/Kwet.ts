@@ -1,7 +1,7 @@
 export class Kwet {
   id: string;
   text: string;
-  creationDate: string;
+  creationDate: Date;
   owner: Account;
   hashtags: String[];
   mentions: Account[];

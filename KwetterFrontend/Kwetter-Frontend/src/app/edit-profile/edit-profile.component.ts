@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {HttpService} from "../services/http.service";
 import {AuthService} from "../services/auth.service";
-import * as http from "http";
 import {Account} from "../domain";
 import {HttpClient} from "@angular/common/http";
 import {environment} from "../../environments/environment";
@@ -16,7 +14,7 @@ export class EditProfileComponent implements OnInit {
   private currentUser: Account;
 
   constructor(private http: HttpClient, private auth: AuthService) {
-    this.currentUser = <Account>this.auth.getAccount();
+    this.currentUser = JSON.parse(localStorage.getItem('currentUser')).account;
   }
 
   ngOnInit() {
@@ -47,7 +45,7 @@ export class EditProfileComponent implements OnInit {
       txtprofileimage: profileimage,
       txtweb: web,
       txtbio: bio
-    }, {headers: { 'Authorization': this.auth.getToken()})
+    }, {headers: { 'Authorization': this.auth.getToken()}})
       .map(user => {
         return user;
       }).subscribe(res => {

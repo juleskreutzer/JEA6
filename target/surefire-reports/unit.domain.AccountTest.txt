@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: unit.domain.AccountTest
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.001 sec - in unit.domain.AccountTest

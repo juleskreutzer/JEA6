@@ -5,6 +5,9 @@ import {Kwet} from "../domain";
 import {HttpClient} from "@angular/common/http";
 import {environment} from "../../environments/environment";
 import {HttpService} from "../services/http.service";
+import {WebsocketService} from "../services/websocket.service";
+import {Subject} from "rxjs/Subject";
+import {NewKweetService} from "../services/new-kweet.service";
 
 @Component({
   selector: 'app-kwetter',
@@ -17,7 +20,7 @@ export class KwetterComponent implements OnInit {
   kwets: Kwet[] = [];
   txtText: string;
 
-  constructor(private authService: AuthService, private router: Router, private http: HttpService) {
+  constructor(private authService: AuthService, private router: Router, private http: HttpService, private newKweetService: NewKweetService) {
     this.currentUser = JSON.parse(localStorage.getItem("currentUser")).account;
   }
 
@@ -28,14 +31,17 @@ export class KwetterComponent implements OnInit {
 
   createKweet() {
     if(this.txtText !== undefined) {
-      this.http.sendPostRequest('/api/kwets/create', {
-        text: this.txtText,
-        owner: this.currentUser,
-        creationDate: new Date()
-      })
+
+      const kwet = new Kwet();
+      kwet.text = this.txtText;
+      kwet.owner = this.currentUser;
+      kwet.creationDate = new Date();
+
+      this.http.sendPostRequest('/api/kwets/create', kwet)
       .subscribe(
         res => {
-            window.location.reload();
+            // window.location.reload();
+          this.newKweetService.messages.next(kwet);
         }, err => {
           if(err.status === 401) {
             this.router.navigate(['/login']);
@@ -55,7 +61,7 @@ export class KwetterComponent implements OnInit {
 
         this.kwets = temp.sort(function(a, b) {
           if(b === undefined) { return 0; } else {
-            return +new Date(b.creationDate.replace('[UTC]', '')) - +new Date(a.creationDate.replace('[UTC]', ''))
+            return +new Date(b.creationDate.toString().replace('[UTC]', '')) - +new Date(a.creationDate.toString().replace('[UTC]', ''))
           }
         });
       },
@@ -74,6 +80,10 @@ export class KwetterComponent implements OnInit {
 
   ngOnInit() {
     this.loadAllKwets();
+
+    this.newKweetService.messages.subscribe((response: Kwet) => {
+      this.kwets.unshift(response);
+    })
   }
 
 }

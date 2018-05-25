@@ -12,6 +12,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Date;
 import java.util.List;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
@@ -143,6 +144,8 @@ public class KwetApi {
         if(kwet.getOwner() == null || kwet.getText() == null || kwet.getText().trim().length() == 0) {
             throw new WebApplicationException(ResponseMessage.PARAM_MISSING, Response.Status.NOT_ACCEPTABLE);
         }
+
+        kwet.setCreationDate(new Date());
 
         service.create(kwet);
 

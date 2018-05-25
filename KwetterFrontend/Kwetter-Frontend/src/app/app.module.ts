@@ -18,6 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { ProfileComponent } from './profile/profile.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
+import {WebsocketService} from "./services/websocket.service";
+import { NewKweetService} from "./services/new-kweet.service";
 
 const routes : Routes = [
   { path: 'login', component: LoginComponent, data: {title: 'Kwetter - Login'} },
@@ -53,7 +55,9 @@ const routes : Routes = [
     AuthGuardService,
     AuthService,
     HttpService,
-    CookieService
+    CookieService,
+    WebsocketService,
+    NewKweetService
   ],
   bootstrap: [AppComponent]
 })

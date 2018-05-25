@@ -8,6 +8,8 @@ public class ApiRef {
     private String _following = "/accounts/following/{id}";
     private String _kwets = "/kwets/owner/{id}/all";
 
+    public ApiRef() { }
+
     public ApiRef(long id) {
         _self = _self.replace("{id}", String.valueOf(id));
         _update = _update.replace("{id}", String.valueOf(id));
